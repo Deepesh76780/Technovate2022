@@ -1,19 +1,20 @@
 import React from 'react'
 export const LandingPage = () => {
   return (
-    <div 
-    className='h-screen w-screen items-center bg-cover bg-center bg-no-repeat'
+    <div
+    className='h-screen w-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center'
     style={{backgroundImage:"url(./Images/Background.jpeg)"}}>
     
-    <div className='h-16 flex flex-row justify-start items-center pt-20'>
+    <div className='h-16'>
+    </div>
+
+    <div className='h-16 w-screen flex flex-row justify-start items-center'>
 
         <div className='w-[140px]'></div>
         <img className='h-[80px] w-[80px]' src="Images/Logo.svg" alt="Logo" />
 
-
-    
         <div
-         className='px-[10vw] flex flex-row space-x-[4vw] text-red-100 text-[1.2em]'>
+         className='px-[10vw] flex flex-row space-x-[4vw] text-red-100 text-[1em]'>
             <div>
                 REGISTER
             </div>
@@ -30,19 +31,26 @@ export const LandingPage = () => {
                 BLOGS
             </div>
         </div>
+        
+    </div>
 
+    <div className='h-[500px] w-[80vw]  flex flex-row justify-between'>
 
+        <div>
+            <div className='text-[100px] text-white'>
+                Technovate
+            </div>
+        </div>
 
-
-
-
-
+        <div>
+            <img src="Images/Earth.gif"
+            className='rounded-full h-[200px] w-[200px]'
+            alt="EarthGIF" />
+        </div>
 
 
 
     </div>
-
-
 
 
 
