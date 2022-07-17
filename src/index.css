@@ -2,13 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Spaced';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Spaced'), url('../public/fonts/SpacedTTF.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Spartan'), url('../public/fonts/Spartan.ttf') format('truetype');
+}
+.spaced {
+  font-family: 'Spaced', serif;
+}
+.spartan{
+  font-family: 'Spartan', serif;
 }
 
 code {
