@@ -17,12 +17,7 @@
 .spaced {
   font-family: 'Spaced', serif;
 }
-.spartan{
+body{
   font-family: 'Spartan', serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
