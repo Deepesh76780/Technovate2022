@@ -11,12 +11,11 @@ function App() {
   return (
     <>
 
-    {/* <LandingPage/> */}
-    
+    <LandingPage/>
     {/* <Team /> */}
     {/* <Blogs /> */}
     {/* <EventLanding /> */}
-    <Footer />
+    {/* <Footer /> */}
     
     
     
