@@ -14,7 +14,7 @@ export const LandingPage = () => {
         <img className='h-[80px] w-[80px]' src="Images/Logo.svg" alt="Logo" />
 
         <div
-         className='px-[10vw] flex flex-row space-x-[4vw] text-red-100 text-[1em]'>
+         className='px-[10vw] flex flex-row space-x-[4vw] text-red-100 text-[1em] spaced z-10'>
             <div>
                 REGISTER
             </div>
@@ -35,18 +35,19 @@ export const LandingPage = () => {
     </div>
 
     <div className='h-[500px] w-[80vw]  flex flex-row justify-between'>
-
+{/* 
         <div>
             <div className='text-[100px] text-white'>
                 Technovate
             </div>
-        </div>
+        </div> */}
 
-        <div>
-            <img src="Images/Earth.gif"
-            className='rounded-full h-[200px] w-[200px]'
-            alt="EarthGIF" />
-        </div>
+    
+    <div>
+        <img src="Images/Earth.gif"
+        className='rounded-full absolute h-[90vh] w-[90vh] top-auto bottom-auto right-10'
+        alt="EarthGIF" />
+    </div>
 
 
 
@@ -58,8 +59,7 @@ export const LandingPage = () => {
 
 
     
-    
-    
+
     
     
     
