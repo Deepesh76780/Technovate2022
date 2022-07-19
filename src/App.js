@@ -1,7 +1,9 @@
 import "./App.css";
 import { LandingPage } from "./Mycomps/LandingPage";
-import { Footer } from "./Mycomps/Footer/Footer";
 import { Team } from "./Mycomps/Team/Team";
+import { Blogs } from "./Mycomps/Blogs/Blogs";
+import { EventLanding } from "./Mycomps/Events/EventLanding";
+import { Footer } from "./Mycomps/Footer/Footer";
 
 
 
@@ -11,7 +13,9 @@ function App() {
 
     {/* <LandingPage/> */}
     
-    <Team />
+    {/* <Team /> */}
+    {/* <Blogs /> */}
+    {/* <EventLanding /> */}
     <Footer />
     
     
