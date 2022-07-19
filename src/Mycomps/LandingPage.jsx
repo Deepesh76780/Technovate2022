@@ -1,5 +1,16 @@
 import React from 'react'
+import { useState } from 'react';
 export const LandingPage = () => {
+
+    const [val, setVal] = useState(true);
+
+    setTimeout(() => {
+        setVal(false);
+    }, 3000);
+
+
+
+
   return (
     <div
     className='h-screen w-screen bg-cover bg-center bg-no-repeat flex flex-col justify-start items-center'
@@ -7,7 +18,7 @@ export const LandingPage = () => {
         
     <div>
         <img src="Images/Earth.gif"
-        className='rounded-full absolute h-[80vh] w-[80vh] top-[10vh] right-[4vw]'
+        className={`rounded-full z-20 absolute transition-all h-[80vh] w-[80vh] duration-[3s]  left-0 right-0 top-0 bottom-0 m-auto ${val?" left-0 right-0 top-0 bottom-0 m-auto scale-[40%]":" translate-x-[75%]"}`}
         alt="EarthGIF" />
     </div>
 
@@ -15,17 +26,19 @@ export const LandingPage = () => {
     className='absolute bottom-8 w-[30px] h-[30px] tracking-widest cursor-pointer' 
     src="DownArrow.svg" alt="DownArrow" />
 
+    <div className={`transition-all duration-[3s] ${val? "translate-y-[-120%]":"translate-y-[0]"}`}>
 
     <div className='h-16'>
+        
     </div>
 
-    <div className='h-16 w-screen flex flex-row justify-start items-center'>
+    <div className="h-16 w-screen flex flex-row justify-start items-center">
 
         <div className='w-[140px]'></div>
         <img className='h-[80px] w-[80px]' src="Images/Logo.svg" alt="Logo" />
 
         <div
-         className='flex flex-row space-x-[3.7vw] text-red-100 text-[20px] spaced z-10 px-[10vw] '>
+         className="flex flex-row space-x-[3.7vw] text-red-100 text-[20px] spaced z-30  px-[10vw] ">
             <div>
                 REGISTER
             </div>
@@ -43,8 +56,9 @@ export const LandingPage = () => {
             </div>
         </div>
     </div>
+    </div>
 
-    <div className='h-[65vh] w-[65vw]  flex flex-row justify-between z-20'>
+    <div className={`h-[65vh] w-[65vw]  flex flex-row justify-between z-10 transition-all duration-[3s] ${val? "translate-x-[150%]":"translate-x-[0]"}`}>
 
         <div className='text-white space-y-0 spaced flex justify-center flex-col'>
             
@@ -65,11 +79,7 @@ export const LandingPage = () => {
             </div>
 
 
-
-
         </div>
-
-
 
 
     </div>

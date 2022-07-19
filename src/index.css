@@ -19,5 +19,6 @@
 }
 body{
   font-family: 'Spartan', serif;
+  overflow-x: hidden;
 }
 
