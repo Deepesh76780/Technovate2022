@@ -4,12 +4,13 @@ import { Footer } from './Footer/Footer';
 import { Navbar } from './Navbar';
 var Scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
-export const LandingPage = () => {
+export const LandingPage = (props) => {
 
     const [val, setVal] = useState(true);
     const [showArrow, setShowArrow] = useState(false);
     const [ShowBottom, setShowBottom] = useState(false);
     const [BottomLoaded, setBottomLoaded] = useState(false);
+
 
     setTimeout(() => {
         setVal(false);
@@ -19,18 +20,20 @@ export const LandingPage = () => {
     }, 400);
 
 
-
     function ScrollToggle(e) {
-        if (ShowBottom) {
-            scroll.scrollToTop();
-        }
-        else {
-            if (BottomLoaded !== true) {
-                setBottomLoaded(true)
+        if(window.location.pathname === '/'){
+            if (ShowBottom) {
+                scroll.scrollToTop();
             }
-            scroll.scrollToBottom();
+            else {
+                if (BottomLoaded !== true) {
+                    setBottomLoaded(true)
+                }
+                scroll.scrollToBottom();
+            }
         }
     }
+
 
     const earth = document.getElementById('EarthGIF')
     const spaceship = document.getElementById('spaceShip')
@@ -43,36 +46,40 @@ export const LandingPage = () => {
     let delayer = false
 
     document.addEventListener('wheel', (e) => {
-        if (delayer !== true) {
-            if (e.deltaY > 0 && getScroll() === 0) {
-                delayer = true
-                ScrollToggle()
-                setTimeout(() => {
-                    delayer = false
-                }, 400)
-            }
-            if (e.deltaY < 0 && getScroll() >= 0.98) {
-                delayer = true
-                ScrollToggle()
-                setTimeout(() => {
-                    delayer = false
-                }, 400)
+        if(window.location.pathname === '/'){
+            if (delayer !== true) {
+                if (e.deltaY > 0 && getScroll() === 0) {
+                    delayer = true
+                    ScrollToggle()
+                    setTimeout(() => {
+                        delayer = false
+                    }, 400)
+                }
+                if (e.deltaY < 0 && getScroll() >= 0.98) {
+                    delayer = true
+                    ScrollToggle()
+                    setTimeout(() => {
+                        delayer = false
+                    }, 400)
+                }
             }
         }
     })
 
     document.addEventListener('scroll', () => {
-        if (earth != null) {
-            earth.style.transform = `translate(72%,${-(getScroll() * -30)}%)`
-        }
-        if (spaceship != null) {
-            spaceship.style.transform = `rotate(${180 - getScroll() * 180}deg) translate(0,${30 - getScroll() * 30}vh)`
-        }
-        if (getScroll() > 0.5) {
-            setShowBottom(true)
-        }
-        else {
-            setShowBottom(false)
+        if(window.location.pathname === '/'){
+            if (earth != null) {
+                earth.style.transform = `translate(72%,${-(getScroll() * -30)}%)`
+            }
+            if (spaceship != null) {
+                spaceship.style.transform = `rotate(${180 - getScroll() * 180}deg) translate(0,${30 - getScroll() * 30}vh)`
+            }
+            if (getScroll() > 0.5) {
+                setShowBottom(true)
+            }
+            else {
+                setShowBottom(false)
+            }
         }
     })
 
@@ -94,7 +101,7 @@ export const LandingPage = () => {
 
                 <div className={`transition-all duration-[3s] z-30 ${val ? "translate-y-[-120%]" : "translate-y-[0]"}`}>
 
-                    <div className='h-[6vh]'></div>
+                    <div className='h-10'></div>
 
                     <Navbar />
                 </div>
@@ -137,7 +144,7 @@ export const LandingPage = () => {
                     <div className='h-5'></div>
 
                     <div className='flex flex-row items-start'>
-                        <div id="spaceShip" className='ml-[14vw] flex flex-col justify-center items-center transition-all duration-300 -translate-y-[30vh] rotate-180'>
+                        <div id="spaceShip" className='ml-[14vw] flex flex-col justify-center items-center transition-all duration-1000 -translate-y-[30vh] rotate-180'>
 
                             <div className='text-white text-[10px] font-bold'>
                                 <span className='text-[#E72D2D]'>CABIN MICS</span>: RECORDING
