@@ -17,8 +17,9 @@
 .spaced {
   font-family: 'Spaced', serif;
 }
+
 body{
   font-family: 'Spartan', serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
