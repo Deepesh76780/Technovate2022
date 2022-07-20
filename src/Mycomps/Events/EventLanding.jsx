@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Navbar } from '../Navbar'
 import { Cultural } from './Cultural'
 import { Informal } from './Informal'
 import { Technical } from './Technical'
@@ -8,7 +9,8 @@ export const EventLanding = () => {
 
     return (
         <div>
-            <div className='bg-cover bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+            <div className='bg-cover pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+                <Navbar />
                 <div className='absolute right-0 top-3'>
                     <img src="./Images/Event/Spaceman.png " className='w-[200px] h-[233px]' alt="" />
                 </div>
