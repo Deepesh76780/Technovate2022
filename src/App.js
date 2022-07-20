@@ -4,8 +4,7 @@ import { Team } from "./Mycomps/Team/Team";
 import { Blogs } from "./Mycomps/Blogs/Blogs";
 import { EventLanding } from "./Mycomps/Events/EventLanding";
 import { Footer } from "./Mycomps/Footer/Footer";
-import { BrowserRouter, Route, Routes ,useLocation} from "react-router-dom";
-import {useEffect} from 'react';
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import { RoutingPage } from "./Mycomps/Router/RoutingPage";
 
 
