@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navbar } from '../Navbar'
 import { BlogCard } from './BlogCard'
 
 export const Blogs = () => {
@@ -17,7 +18,8 @@ export const Blogs = () => {
         },
     ]
     return (
-        <div className='bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-end relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+        <div className='pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-end relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+            <Navbar />
             <div className=''>
                 <img src="./Images/Blog/blog.png" className='absolute h-[500px] w-[320px] left-2 top-[300px]' alt="" />
             </div>

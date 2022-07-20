@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navbar } from '../Navbar'
 import { TeamCard } from './TeamCard'
 
 export const Team = () => {
@@ -53,8 +54,9 @@ export const Team = () => {
         },
     ]
   return (
-    <div className='bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
-        <div className='py-20 flex flex-col justify-center items-center'>
+    <div className='pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
+        <Navbar />
+        <div className='pt-10 flex flex-col justify-center items-center'>
             <div className='spaced uppercase text-4xl tracking-wider'>
                 Team
             </div>

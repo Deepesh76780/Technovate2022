@@ -60,7 +60,7 @@ export const Footer = () => {
 
     ]
     return (
-        <div className='bg-black text-white pt-2 pb-2 mt-2'>
+        <div className='bg-black text-white pt-4 pb-2'>
             <div className='grid grid-cols-4 place-content-center px-10'>
                 <div className='followus flex flex-col space-y-3 col-span-1'>
                     <div className='uppercase text-2xl spaced'>Follow us</div>
