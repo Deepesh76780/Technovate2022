@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { Footer } from './Footer/Footer';
 var Scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
 export const LandingPage = () => {
@@ -192,7 +193,7 @@ export const LandingPage = () => {
 
         </div>
 
-
+<Footer />
         
     </div>
 

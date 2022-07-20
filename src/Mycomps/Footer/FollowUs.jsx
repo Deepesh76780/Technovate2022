@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FollowUs = ({name,url}) => {
     return (
-        <div className='grid grid-cols-2 justify-start items-center '>
+        <div className='grid grid-cols-2 justify-start items-center text-base'>
             <a href={url}>
                 {name}
             </a>
