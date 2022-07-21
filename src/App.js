@@ -1,10 +1,5 @@
 import "./App.css";
-import { LandingPage } from "./Mycomps/LandingPage";
-import { Team } from "./Mycomps/Team/Team";
-import { Blogs } from "./Mycomps/Blogs/Blogs";
-import { EventLanding } from "./Mycomps/Events/EventLanding";
-import { Footer } from "./Mycomps/Footer/Footer";
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 import { RoutingPage } from "./Mycomps/Router/RoutingPage";
 
 

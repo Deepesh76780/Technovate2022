@@ -3,7 +3,7 @@ import React from 'react'
 export const FollowUs = ({name,url}) => {
     return (
         <div className='grid grid-cols-2 justify-start items-center text-base'>
-            <a href={url}>
+            <a href={url} target="_blank" rel="noreferrer" >
                 {name}
             </a>
             <div className='-ml-8'>

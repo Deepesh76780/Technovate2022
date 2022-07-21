@@ -29,7 +29,7 @@ export const Footer = () => {
         },
         {
             name: 'Register',
-            url: '/register'
+            url: '/'
         },
         {
             name: 'Event',
@@ -37,11 +37,11 @@ export const Footer = () => {
         },
         {
             name:'Schedule',
-            url: '/schedule'
+            url: '/'
         },
         {
             name: 'Sponsors',
-            url: '/sponsors'
+            url: '/'
         }
     ]
     const siteMap2 = [
@@ -51,7 +51,7 @@ export const Footer = () => {
         },
         {
             name: 'FAQs',
-            url: '/faq'
+            url: '/'
         },
         {
             name: 'Blog',
@@ -86,14 +86,14 @@ export const Footer = () => {
                         <div className='flex flex-col space-y-2'>
                             {
                                 siteMap1.map((item,index) => {
-                                    return (<div className='text-base text-white cursor-pointer' key={index}><a to="/">{item.name}</a></div>)
+                                    return (<div className='text-base text-white cursor-pointer' key={index}><Link to={item.url}>{item.name}</Link></div>)
                                 })
                             }
                         </div>
                         <div className='flex flex-col space-y-2'>
                             {
                                 siteMap2.map((item,index) => {
-                                    return (<div className='text-base text-white cursor-pointer' key={index}><a to="/">{item.name}</a></div>)
+                                    return (<div className='text-base text-white cursor-pointer' key={index}><Link to={item.url}>{item.name}</Link></div>)
                                 })
                             }
                         </div>
