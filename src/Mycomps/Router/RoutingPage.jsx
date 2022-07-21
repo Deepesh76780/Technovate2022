@@ -10,10 +10,12 @@ import { Route, Routes ,useLocation} from "react-router-dom";
 import {useEffect} from 'react';
 
 export const RoutingPage = () => {
+    
     const location=useLocation();
     useEffect(()=>{
         if(window.location.pathname === '/'){
             document.body.style.overflowY = 'hidden';
+            window.scrollTo(0,0);
         }
         else{
             document.body.style.overflowY = 'overlay';
