@@ -8,12 +8,13 @@ import { Blogs } from '../Blogs/Blogs'
 
 import { Route, Routes ,useLocation} from "react-router-dom";
 import {useEffect} from 'react';
+import { Navbar } from '../Navbar'
 
 export const RoutingPage = () => {
     
     const location=useLocation();
     useEffect(()=>{
-        if(window.location.pathname === '/'){
+        if(window.location.pathname === '/' && window.screen.width > 640){
             document.body.style.overflowY = 'hidden';
             window.scrollTo(0,0);
         }
@@ -31,6 +32,8 @@ export const RoutingPage = () => {
         <Route path="/team" element={<><Team /><Footer /></>} />
         <Route path="/event" element={<><EventLanding /><Footer /></>} />
         <Route path="/blog" element={<><Blogs /><Footer /></>} />
+        <Route path="/nav" element={<div className='h-screen pt-10'  style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}><Navbar /></div>} />
+
     </Routes>
   )
 }

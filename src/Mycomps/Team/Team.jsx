@@ -55,7 +55,7 @@ export const Team = () => {
     ]
   return (
     <div className='pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
-        {/* <Navbar /> */}
+        <Navbar />
         <div className='pt-10 flex flex-col justify-center items-center'>
             <div className='spaced uppercase text-4xl tracking-wider'>
                 Team

@@ -10,7 +10,7 @@ export const EventLanding = () => {
     return (
         <div>
             <div className='bg-cover pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
-                {/* <Navbar /> */}
+                <Navbar />
                 <div className='absolute right-0 top-3'>
                     <img src="./Images/Event/Spaceman.png " className='w-[200px] h-[233px]' alt="" />
                 </div>
