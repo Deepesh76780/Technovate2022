@@ -55,12 +55,12 @@ export const Team = () => {
     ]
   return (
     <div className='pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className='pt-10 flex flex-col justify-center items-center'>
             <div className='spaced uppercase text-4xl tracking-wider'>
                 Team
             </div>
-            <div className='grid grid-cols-4 mt-10 gap-x-12 gap-y-6'>
+            <div className='grid xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 my-10 gap-x-4 md:gap-x-5 xl:gap-x-12 gap-y-6'>
                 {
                     team.map((item,index) => {
                         return (<TeamCard name={item.name} role={item.role} phone={item.phone} email={item.email} key={index} />)
