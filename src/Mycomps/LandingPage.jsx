@@ -207,14 +207,16 @@ export const LandingPage = (props) => {
                         </div>
                         <div>
                             <div className='text-xl tracking-wide text-center spaced'>Technovate 2k22 Teaser</div>
-                        <video className='h-[240px] w-full px-2 mt-5' controls poster="./Images/Blog/logo.png" >
-                            <source src='./Images/Blog/blog1.mp4' type="video/mp4" />
-                        </video>
+                            <video className='h-[240px] w-full px-2 mt-5' controls poster="./Images/Blog/logo.png" >
+                                <source src='./Images/Blog/blog1.mp4' type="video/mp4" />
+                            </video>
                         </div>
                     </div>
                 </div>
             </div>
-            <Footer />
+            <div className='sm:hidden'>
+                <Footer />
+            </div>
         </>
     )
 }
