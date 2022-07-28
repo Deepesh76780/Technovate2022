@@ -187,35 +187,36 @@ export const LandingPage = (props) => {
                 {/* Mobile Landing Page */}
 
             </div>
-            <div className='flex flex-col sm:hidden bg-cover bg-no-repeat h-full w-full'
-                style={{ backgroundImage: "url(./Images/Background.jpeg)" }}>
-                <Navbar />
-                <div className='flex flex-col text-white pt-16 w-full pl-2'>
-                    <div className='flex flex-col spaced justify-start items-start space-y-3'>
-                        <div className='text-4xl'>TECHNOVATE</div>
-                        <div className='text-2xl'>Lorem ipsum, dolor sit amet.</div>
-                        <div className='text-2xl'>5th-6th Nov 2022</div>
-                        <div className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</div>
-                    </div>
-                    <div className='mt-4'>
-                        <img id='EarthGIF' alt="" src="Images/Earth.gif" className='h-60 w-60 rounded-full mx-auto' />
-                    </div>
-                    <div className='mt-3 flex flex-col px-3'>
-                        <div className='text-3xl spaced'>About Us</div>
-                        <div className='mt-2 bg-black bg-opacity-50 p-4'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti molestiae, modi quam aperiam ipsam similique quibusdam reiciendis placeat, omnis tenetur harum minus aspernatur nulla saepe hic atque eaque repellat illo voluptatum alias natus sed officiis! Reiciendis possimus molestias aperiam! Incidunt!
+            <div className='sm:hidden'>
+                <div className='flex flex-col sm:hidden bg-cover bg-no-repeat h-full w-full'
+                    style={{ backgroundImage: "url(./Images/Background.jpeg)" }}>
+                    <Navbar />
+                    <div className='flex flex-col sm:hidden text-white pt-16 sm:pt-0 w-full pl-2'>
+                        <div className='flex flex-col spaced justify-start items-start space-y-3'>
+                            <div className='text-4xl'>TECHNOVATE</div>
+                            <div className='text-2xl'>Lorem ipsum, dolor sit amet.</div>
+                            <div className='text-2xl'>5th-6th Nov 2022</div>
+                            <div className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</div>
                         </div>
-                        <div>
-                            <div className='text-xl tracking-wide text-center spaced'>Technovate 2k22 Teaser</div>
-                            <video className='h-[240px] w-full px-2 mt-5' controls poster="./Images/Blog/logo.png" >
-                                <source src='./Images/Blog/blog1.mp4' type="video/mp4" />
-                            </video>
+                        <div className='mt-4'>
+                            <img id='EarthGIF' alt="" src="Images/Earth.gif" className='h-60 w-60 rounded-full mx-auto' />
+                        </div>
+                        <div className='mt-3 flex flex-col px-3'>
+                            <div className='text-3xl spaced'>About Us</div>
+                            <div className='mt-2 bg-black bg-opacity-50 p-4'>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti molestiae, modi quam aperiam ipsam similique quibusdam reiciendis placeat, omnis tenetur harum minus aspernatur nulla saepe hic atque eaque repellat illo voluptatum alias natus sed officiis! Reiciendis possimus molestias aperiam! Incidunt!
+                            </div>
+                            <div>
+                                <div className='text-xl tracking-wide text-center spaced'>Technovate 2k22 Teaser</div>
+                                <video className='h-[240px] w-full px-2 mt-5' controls poster="./Images/Blog/logo.png" >
+                                    <source src='./Images/Blog/blog1.mp4' type="video/mp4" />
+                                </video>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='sm:hidden'>
                 <Footer />
+
             </div>
         </>
     )

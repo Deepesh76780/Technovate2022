@@ -44,7 +44,8 @@ export const Team = () => {
             name: 'Himanshu Yadav',
             role: 'Lead',
             phone: '8921474833',
-            email: 'rony20100@iiitnr.edu.in'
+            email: 'rony20100@iiitnr.edu.in',
+            linkedin:'https://www.linkedin.com/in/himanshu-yadav-b9a8b817b/'
         },
         {
             name: 'Himanshu Yadav',
