@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const TeamCard = ({ name,image, role, phone, email ,linkedin }) => {
+export const TeamCard = ({ name,image, role, phone, email ,linkedin ,css }) => {
     return (
         <div className='flex flex-col justify-center items-center relative'>
             <div className='z-0'>
-                <img src={image} className='w-48 h-48 md:h-60 md:w-60 rounded-2xl bg-cover' alt="" />
+                <img src={image} className={`w-48 h-48 md:h-60 md:w-60 rounded-2xl ${css}`} alt="" />
             </div>
             <div className='text-base tracking-widest mt-2'>
                 {name}
