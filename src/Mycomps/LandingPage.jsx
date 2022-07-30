@@ -87,7 +87,7 @@ export const LandingPage = (props) => {
     })
 
     return (
-        <>
+        <div className='overflow-hidden'>
             <div className='hidden bg-cover bg-center bg-no-repeat sm:flex sm:flex-col justify-start items-center'
                 style={{ backgroundImage: "url(./Images/Background.jpeg)" }}>
                 <div className='h-screen w-screen sm:flex sm:flex-col items-center hidden '>
@@ -221,6 +221,6 @@ export const LandingPage = (props) => {
                 <Footer />
 
             </div>
-        </>
+        </div>
     )
 }
