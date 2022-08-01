@@ -118,7 +118,7 @@ export const LandingPage = (props) => {
                                 TECHNOVATE
                             </div>
                             <div className='text-xl md:text-3xl lg:text-5xl'>
-                            Connect, Innovate, Inspire
+                            Connect, Innovate,<br></br> Inspire
                             </div>
                             <div className='text-xl md:text-3xl lg:text-5xl'>
                                 5th - 6th Nov 2022
