@@ -40,11 +40,11 @@ export const Navbar = () => {
                 <div className='mt-2'>
                     <img src="./Images/Logo.svg" className='h-20 w-20' alt="" />
                 </div>
-                <div className={`z-10 ${isOpen ? '' : 'translate-x-0'} mt-2`}>
+                <div className={`z-30 ${isOpen ? '' : 'translate-x-0'} mt-2`}>
                     <Hamburger rounded size={40} duration={0.8} color='white' toggled={isOpen} toggle={setisOpen} />
                 </div>
             </div>
-            <div className={`z-0 sm:hidden pt-[2.5rem] px-2 text-white space-y-5 flex flex-col h-screen w-[260px] fixed top-0 right-0  bg-black bg-opacity-75 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition duration-[800ms] `}>
+            <div className={`z-20 sm:hidden pt-[2.5rem] px-2 text-white space-y-5 flex flex-col h-screen w-[260px] fixed top-0 right-0  bg-black bg-opacity-75 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition duration-[800ms] `}>
                 <Link to='/' className='text-xl'>
                     Technovate 2k22
                 </Link>
