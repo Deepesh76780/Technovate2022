@@ -1,5 +1,6 @@
 {
   "name": "technovate2022",
+  "homepage": "http://technovate.iiitnr.ac.in/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
