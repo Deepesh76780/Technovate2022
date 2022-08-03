@@ -19,7 +19,7 @@ export const Navbar = () => {
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
                         REGISTER
                     </div>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/event'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
                         EVENT
                     </Link>
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
@@ -31,7 +31,7 @@ export const Navbar = () => {
                     <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/team'>
                         TEAM
                     </Link>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/blog'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
                         BLOGS
                     </Link>
                 </div>
@@ -53,7 +53,7 @@ export const Navbar = () => {
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
                         REGISTER
                     </div>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/event'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
                         EVENT
                     </Link>
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                     <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/team'>
                         TEAM
                     </Link>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/blog'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
                         BLOGS
                     </Link>
                 </div>

@@ -129,7 +129,7 @@ export const Team = () => {
                 "phone": "7005753529",
                 "email": "anand20100@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/anand-bachker-216119238/",
-                "photo": "./Images/Team/TeamPhotos/Aman.png",
+                "photo": "./Images/Team/TeamPhotos/Anand.jpeg",
                 "css":"bg-cover"
               },
               {
@@ -216,8 +216,8 @@ export const Team = () => {
             
           ]
   return (
-    <div className='pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
-        <Navbar />
+    <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
+        <div className='w-full'><Navbar /></div>
         <div className='pt-10 flex flex-col justify-center items-center'>
             <div className='spaced uppercase text-4xl tracking-wider'>
                 Team

@@ -18,8 +18,8 @@ export const Blogs = () => {
         },
     ]
     return (
-        <div className='pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-end relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
-            <Navbar />
+        <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-end relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+                    <div className='w-full'><Navbar /></div>
             <div className=''>
                 <img src="./Images/Blog/blog.png" className='absolute h-[400px] w-[200px] lg:h-[500px] hidden md:block lg:w-[320px] left-2 top-[300px]' alt="" />
             </div>
