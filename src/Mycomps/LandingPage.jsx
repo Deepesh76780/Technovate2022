@@ -167,8 +167,8 @@ export const LandingPage = (props) => {
                                 </div>
 
                                 <div className={`transition-all duration-1000 ${BottomLoaded ? "translate-x-0 translate-y-0 mb-2" : "translate-x-[100vw] translate-y-10"}`}>
-                                    <video className='h-[140px] w-[250px] ml-5 mt-5' controls poster="./Images/Blog/logo.png" >
-                                        <source src="./Images/Blog/logo.png" type="video/mp4" />
+                                    <video className='h-[250px] w-[450px] ml-5 mt-5' controls poster="./Images/Blog/logo.png" >
+                                        <source src="./Images/teaser.mp4" type="video/mp4" />
                                     </video>
                                 </div>
 
@@ -211,7 +211,7 @@ export const LandingPage = (props) => {
                             <div>
                                 <div className='text-xl tracking-wide text-center spaced'>Technovate 2k22 Teaser</div>
                                 <video className='h-[240px] w-full px-2 mt-5' controls poster="./Images/Blog/logo.png" >
-                                    <source src='./Images/Blog/blog1.mp4' type="video/mp4" />
+                                    <source src='./Images/teaser.mp4' type="video/mp4" />
                                 </video>
                             </div>
                         </div>

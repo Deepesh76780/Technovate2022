@@ -75,8 +75,8 @@ export const Team = () => {
                 "phone": "9399088769",
                 "email": "shubhamr20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/mwlite/in/shubham-raj-sahu-7474b1194",
-                "photo": "./Images/Team/TeamPhotos/Shubham.jpeg",
-                "css":"bg-contain"
+                "photo": "./Images/Team/TeamPhotos/Shubham1.jpg",
+                "css":"bg-cover"
               },
               {
                 "name": "Lekhana Mysore Adiseshanaik ",
@@ -156,7 +156,7 @@ export const Team = () => {
                 "email": "nishoak20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/nishoak/",
                 "photo": "./Images/Team/TeamPhotos/Nishoak.jpeg",
-                "css":"bg-contain"
+                "css":"bg-cover"
               },
               {
                 "name": "Yathin Prakash Kethepalli ",
@@ -209,11 +209,7 @@ export const Team = () => {
               "photo": "./Images/Team/TeamPhotos/Tavisha.jpeg",
               "css":"bg-cover"
             },
-            
-            
-            
-            
-            
+                 
           ]
   return (
     <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
