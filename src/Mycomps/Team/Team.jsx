@@ -5,6 +5,24 @@ import { TeamCard } from './TeamCard'
 export const Team = () => {
     
     const team = [
+      {
+        "name": "Himanshu Yadav",
+        "role": "Overall Coordinator",
+        "phone": "7587721107",
+        "email": "himanshu20102@iiitnr.edu.in",
+        "linkedin": "https://www.linkedin.com/in/himanshu-yadav-b86134206",
+        "photo": "./Images/Team/TeamPhotos/Himanshu.jpg",
+        "css":"bg-cover"
+      },
+    {
+        "name": "Sristhi Sahoo ",
+        "role": "Overall Coordinator",
+        "phone": "7760686990",
+        "email": "sristhi20102@iiitnr.edu.in",
+        "linkedin": "https://www.linkedin.com/in/sristhi-sahoo-7910641ba/",
+        "photo": "./Images/Team/TeamPhotos/Srishti.jpg",
+        "css":"bg-cover"
+      },
         {
             "name": "Ketan Agrawal",
             "role": "Overall Coordinator",
@@ -23,24 +41,7 @@ export const Team = () => {
             "photo": "./Images/Team/TeamPhotos/Ayush.jpeg",
             "css":"bg-cover"
           },
-            {
-                "name": "Himanshu Yadav",
-                "role": "Overall Coordinator",
-                "phone": "7587721107",
-                "email": "himanshu20102@iiitnr.edu.in",
-                "linkedin": "https://www.linkedin.com/in/himanshu-yadav-b86134206",
-                "photo": "./Images/Team/TeamPhotos/Himanshu.jpg",
-                "css":"bg-cover"
-              },
-            {
-                "name": "Sristhi Sahoo ",
-                "role": "Overall Coordinator",
-                "phone": "7760686990",
-                "email": "sristhi20102@iiitnr.edu.in",
-                "linkedin": "https://www.linkedin.com/in/sristhi-sahoo-7910641ba/",
-                "photo": "./Images/Team/TeamPhotos/Srishti.jpg",
-                "css":"bg-cover"
-              },
+
              
               {
                 "name": "Shristy Kashyap",
