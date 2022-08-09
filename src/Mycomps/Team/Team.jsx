@@ -5,6 +5,24 @@ import { TeamCard } from './TeamCard'
 export const Team = () => {
     
     const team = [
+      {
+          "name": "Himanshu Yadav",
+          "role": "Overall Coordinator",
+          "phone": "7587721107",
+          "email": "himanshu20102@iiitnr.edu.in",
+          "linkedin": "https://www.linkedin.com/in/himanshu-yadav-b86134206",
+          "photo": "./Images/Team/TeamPhotos/Himanshu.jpg",
+          "css":"bg-cover"
+        },
+      {
+          "name": "Sristhi Sahoo ",
+          "role": "Overall Coordinator",
+          "phone": "7760686990",
+          "email": "sristhi20102@iiitnr.edu.in",
+          "linkedin": "https://www.linkedin.com/in/sristhi-sahoo-7910641ba/",
+          "photo": "./Images/Team/TeamPhotos/Srishti.jpg",
+          "css":"bg-cover"
+        },
         {
             "name": "Ketan Agrawal",
             "role": "Overall Coordinator",
@@ -23,24 +41,6 @@ export const Team = () => {
             "photo": "./Images/Team/TeamPhotos/Ayush.jpeg",
             "css":"bg-cover"
           },
-            {
-                "name": "Himanshu Yadav",
-                "role": "Overall Coordinator",
-                "phone": "7587721107",
-                "email": "himanshu20102@iiitnr.edu.in",
-                "linkedin": "https://www.linkedin.com/in/himanshu-yadav-b86134206",
-                "photo": "./Images/Team/TeamPhotos/Himanshu.jpg",
-                "css":"bg-cover"
-              },
-            {
-                "name": "Sristhi Sahoo ",
-                "role": "Overall Coordinator",
-                "phone": "7760686990",
-                "email": "sristhi20102@iiitnr.edu.in",
-                "linkedin": "https://www.linkedin.com/in/sristhi-sahoo-7910641ba/",
-                "photo": "./Images/Team/TeamPhotos/Srishti.jpg",
-                "css":"bg-cover"
-              },
              
               {
                 "name": "Shristy Kashyap",
@@ -79,6 +79,15 @@ export const Team = () => {
                 "css":"bg-cover"
               },
               {
+                "name": "Aman Singh",
+                "role": "Designing Team Lead",
+                "phone": "9118705947",
+                "email": "aman20100@iiitnr.edu.in",
+                "linkedin": "https://www.linkedin.com/in/aman-singh-76aa50220",
+                "photo": "./Images/Team/TeamPhotos/Aman.png",
+                "css":"bg-cover"
+              },
+              {
                 "name": "Lekhana Mysore Adiseshanaik ",
                 "role": "Content team head ",
                 "phone": "8688776956",
@@ -114,15 +123,7 @@ export const Team = () => {
                 "photo": "./Images/Team/TeamPhotos/Kunal.jpg",
                 "css":"bg-cover"
               },
-              {
-                "name": "Aman Singh",
-                "role": "Designing Team Lead",
-                "phone": "9118705947",
-                "email": "aman20100@iiitnr.edu.in",
-                "linkedin": "https://www.linkedin.com/in/aman-singh-76aa50220",
-                "photo": "./Images/Team/TeamPhotos/Aman.png",
-                "css":"bg-cover"
-              },
+              
               {
                 "name": "Anand Bachker",
                 "role": "Website Team Lead",
@@ -176,7 +177,14 @@ export const Team = () => {
               "photo": "./Images/Team/TeamPhotos/Pratyush.png",
               "css":"bg-cover"
             },
-            
+            {
+              "name": "Aryaman",
+              "role": "Informal Events Team Lead",
+              "phone": "8708181850",
+              "email": "aryaman20101@iiitnr.edu.in",
+              "linkedin": "https://www.linkedin.com/",
+              "photo": "./Images/Team/TeamPhotos/Aryaman.jpg",
+            },  
             
             {
                 "name": "Saumya Singh ",
@@ -209,7 +217,7 @@ export const Team = () => {
               "photo": "./Images/Team/TeamPhotos/Tavisha.jpeg",
               "css":"bg-cover"
             },
-                 
+               
           ]
   return (
     <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
