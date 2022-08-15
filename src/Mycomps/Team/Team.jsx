@@ -12,7 +12,7 @@ export const Team = () => {
           "email": "himanshu20102@iiitnr.edu.in",
           "linkedin": "https://www.linkedin.com/in/himanshu-yadav-b86134206",
           "photo": "./Images/Team/TeamPhotos/Himanshu.jpg",
-          "css":"bg-cover"
+          "css":"bg-cover bg-center"
         },
       {
           "name": "Sristhi Sahoo ",
@@ -21,7 +21,7 @@ export const Team = () => {
           "email": "sristhi20102@iiitnr.edu.in",
           "linkedin": "https://www.linkedin.com/in/sristhi-sahoo-7910641ba/",
           "photo": "./Images/Team/TeamPhotos/Srishti.jpg",
-          "css":"bg-cover"
+          "css":"bg-cover bg-center"
         },
         {
             "name": "Ketan Agrawal",
@@ -30,7 +30,7 @@ export const Team = () => {
             "email": "ketan19102@iiitnr.edu.in",
             "linkedin": "www.linkedin.com/in/ketanagrawal7",
             "photo": "./Images/Team/TeamPhotos/Ketan.jpg",
-            "css":"bg-cover"
+            "css":"bg-cover bg-center"
           },
           {
             "name": "Ayush Tirkey",
@@ -39,7 +39,7 @@ export const Team = () => {
             "email": "ayush19102@iiitnr.edu.in",
             "linkedin": "https://www.linkedin.com/in/ayush-tirkey-b41b5218b",
             "photo": "./Images/Team/TeamPhotos/Ayush.jpeg",
-            "css":"bg-cover"
+            "css":"bg-cover bg-center"
           },
              
               {
@@ -49,7 +49,7 @@ export const Team = () => {
                 "email": "shristy20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/shristy-kashyap-ab0908180/",
                 "photo": "./Images/Team/TeamPhotos/Shristy.jpeg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
             {
               "name": "Shreyan Manher",
@@ -58,7 +58,7 @@ export const Team = () => {
               "email": "shreyan20100@iiitnr.edu.in",
               "linkedin": "https://www.linkedin.com/in/shreyan-manher-807a0a218/",
               "photo": "./Images/Team/TeamPhotos/Shreyan.jpg",
-              "css":"bg-cover"
+              "css":"bg-cover bg-center"
             },
             {
                 "name": "Meetiksha Sorgile",
@@ -67,7 +67,7 @@ export const Team = () => {
                 "email": "meetiksha20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/meetiksha-sorgile-41676922b/",
                 "photo": "./Images/Team/TeamPhotos/Meetiksha.jfif",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Shubham Raj Sahu",
@@ -76,7 +76,7 @@ export const Team = () => {
                 "email": "shubhamr20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/mwlite/in/shubham-raj-sahu-7474b1194",
                 "photo": "./Images/Team/TeamPhotos/Shubham1.jpg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Aman Singh",
@@ -85,7 +85,7 @@ export const Team = () => {
                 "email": "aman20100@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/aman-singh-76aa50220",
                 "photo": "./Images/Team/TeamPhotos/Aman.png",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Lekhana Mysore Adiseshanaik ",
@@ -94,7 +94,7 @@ export const Team = () => {
                 "email": "mysore20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/lekhana-mysore-adiseshanaik-6b36b822a/",
                 "photo": "./Images/Team/TeamPhotos/Lekhana.jpg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Amogh Dubey",
@@ -103,7 +103,7 @@ export const Team = () => {
                 "email": "amogh20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/amoghdubey",
                 "photo": "./Images/Team/TeamPhotos/Amogh.jpg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Aayush Dewangan ",
@@ -112,7 +112,7 @@ export const Team = () => {
                 "email": "aayush20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/aayush-dewangan-57ab85203",
                 "photo": "./Images/Team/TeamPhotos/Aayush.jpeg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Kunal Mahajan",
@@ -121,7 +121,7 @@ export const Team = () => {
                 "email": "kunal20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/kunal-mahajan-731aa8200",
                 "photo": "./Images/Team/TeamPhotos/Kunal.jpg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               
               {
@@ -131,7 +131,7 @@ export const Team = () => {
                 "email": "anand20100@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/anand-bachker-216119238/",
                 "photo": "./Images/Team/TeamPhotos/Anand.jpeg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Rony Joseph",
@@ -148,7 +148,7 @@ export const Team = () => {
                 "email": "aaditya20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/aaditya-kumar-560952217",
                 "photo": "./Images/Team/TeamPhotos/Aaditya.jpeg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Nishoak Kosaraju",
@@ -157,7 +157,7 @@ export const Team = () => {
                 "email": "nishoak20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/nishoak/",
                 "photo": "./Images/Team/TeamPhotos/Nishoak.jpeg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
               {
                 "name": "Yathin Prakash Kethepalli ",
@@ -166,7 +166,7 @@ export const Team = () => {
                 "email": "yathin20100@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/yathin-prakash-kethepalli",
                 "photo": "./Images/Team/TeamPhotos/Yathin.jpg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
             {
               "name": "Pratyush Parashar",
@@ -175,7 +175,7 @@ export const Team = () => {
               "email": "pratyush20102@iiitnr.edu.in",
               "linkedin": "https://www.linkedin.com/in/pratyush-parashar-036831201/",
               "photo": "./Images/Team/TeamPhotos/Pratyush.png",
-              "css":"bg-cover"
+              "css":"bg-cover bg-center"
             },
             {
               "name": "Aryaman",
@@ -193,7 +193,7 @@ export const Team = () => {
                 "email": "saumya20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/saumya-singh-5237b6203/",
                 "photo": "./Images/Team/TeamPhotos/Saumya.jpg",
-                "css":"bg-cover"
+                "css":"bg-cover bg-center"
               },
             
             {
@@ -203,7 +203,7 @@ export const Team = () => {
               "email": "aryan20102@iiitnr.edu.in",
               "linkedin": " https://www.linkedin.com/in/aryan-kaul-91907b206",
               "photo": "./Images/Team/TeamPhotos/Aryan.jpeg",
-              "css":"bg-cover"
+              "css":"bg-cover bg-center"
             },
             
             
@@ -215,12 +215,12 @@ export const Team = () => {
               "email": "tavisha20101@iiitnr.edu.in",
               "linkedin": "https://www.linkedin.com/in/tavisha-thaware-907190202/",
               "photo": "./Images/Team/TeamPhotos/Tavisha.jpeg",
-              "css":"bg-cover"
+              "css":"bg-cover bg-center"
             },
                
           ]
   return (
-    <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/BackgroundSpace.jpeg)"}}>
+    <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-center' style={{backgroundImage:"url(./Images/Background.jpg)"}}>
         <div className='w-full'><Navbar /></div>
         <div className='pt-10 flex flex-col justify-center items-center'>
             <div className='spaced uppercase text-4xl tracking-wider'>

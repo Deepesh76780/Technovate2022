@@ -6,19 +6,19 @@ export const Footer = () => {
     const socialMedia = [
         {
             name: 'Facebook',
-            url: 'https://www.facebook.com/'
+            url: 'https://www.facebook.com/technovate.iiitnr/'
         },
         {
             name: 'Instagram',
-            url: 'https://www.instagram.com/'
+            url: 'https://instagram.com/technovate_iiitnr?igshid=YmMyMTA2M2Y='
         },
         {
             name: 'Twitter',
-            url: 'https://twitter.com/'
+            url: 'https://twitter.com/technovateIIIT'
         },
         {
             name:'LinkedIn',
-            url: 'https://www.linkedin.com/'
+            url: 'https://www.linkedin.com/company/technovate_iiitnr/'
         }
 
     ]
@@ -55,7 +55,7 @@ export const Footer = () => {
         },
         {
             name: 'Blog',
-            url: '/blog'
+            url: '/'
         }
 
     ]

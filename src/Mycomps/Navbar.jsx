@@ -37,9 +37,9 @@ export const Navbar = () => {
                 </div>
             </div>
             <div className='sm:hidden flex flex-row justify-between items-center mx-2'>
-                <div className='mt-2'>
+                <Link to='/' className='mt-2'>
                     <img src="./Images/Logo.svg" className='h-20 w-20' alt="" />
-                </div>
+                </Link>
                 <div className={`z-30 ${isOpen ? '' : 'translate-x-0'} mt-2`}>
                     <Hamburger rounded size={40} duration={0.8} color='white' toggled={isOpen} toggle={setisOpen} />
                 </div>

@@ -10,7 +10,7 @@ export const EventLanding = () => {
 
     return (
         <div>
-            <div className='bg-cover sm:pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative z-10' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+            <div className='bg-cover sm:pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative z-10' style={{ backgroundImage: "url(./Images/Background.jpg)" }}>
                 <div className=' w-full'>
                     <Navbar />
                 </div>
