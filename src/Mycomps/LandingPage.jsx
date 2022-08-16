@@ -89,7 +89,7 @@ export const LandingPage = (props) => {
     return (
         <div className='overflow-hidden'>
             <div className='hidden bg-cover bg-center bg-no-repeat sm:flex sm:flex-col justify-start items-center'
-                style={{ backgroundImage: "url(./Images/Background.jpeg)" }}>
+                style={{ backgroundImage: "url(./Images/Background.jpg)" }}>
                 <div className='h-screen w-screen sm:flex sm:flex-col items-center hidden '>
 
                     <div className='z-20'>
@@ -191,7 +191,7 @@ export const LandingPage = (props) => {
             </div>
             <div className='sm:hidden'>
                 <div className='flex flex-col sm:hidden bg-cover bg-no-repeat h-full w-full'
-                    style={{ backgroundImage: "url(./Images/Background.jpeg)" }}>
+                    style={{ backgroundImage: "url(./Images/Background.jpg)" }}>
                     <Navbar />
                     <div className='flex flex-col sm:hidden text-white pt-16 sm:pt-0 w-full pl-2'>
                         <div className='flex flex-col spaced justify-start items-start space-y-3'>

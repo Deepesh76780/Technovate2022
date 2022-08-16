@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import { Navbar } from '../Navbar'
 import { Cultural } from './Cultural'
 import { Informal } from './Informal'
+import { MockEvent } from './MockEvent'
 import { Technical } from './Technical'
 
 export const EventLanding = () => {
-    const [ShowItems, setShowItems] = useState(0)
+    const [ShowItems, setShowItems] = useState(1)
 
     return (
         <div>
-            <div className='bg-cover sm:pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative z-10' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
+            <div className='bg-cover sm:pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative z-10' style={{ backgroundImage: "url(./Images/Background.jpg)" }}>
                 <div className=' w-full'>
                     <Navbar />
                 </div>
@@ -27,7 +28,7 @@ export const EventLanding = () => {
                 </div>
                 <div className='my-5'>
                     {
-                        ShowItems === 0 ? <Cultural /> : ShowItems === 1 ? <Technical /> : <Informal />
+                        ShowItems === 0 ? <MockEvent /> : ShowItems === 1 ? <Technical /> : <MockEvent />
                     }
                 </div>
             </div>

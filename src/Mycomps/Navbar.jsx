@@ -19,7 +19,7 @@ export const Navbar = () => {
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
                         REGISTER
                     </div>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/event'>
                         EVENT
                     </Link>
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
@@ -37,9 +37,9 @@ export const Navbar = () => {
                 </div>
             </div>
             <div className='sm:hidden flex flex-row justify-between items-center mx-2'>
-                <div className='mt-2'>
+                <Link to='/' className='mt-2'>
                     <img src="./Images/Logo.svg" className='h-20 w-20' alt="" />
-                </div>
+                </Link>
                 <div className={`z-30 ${isOpen ? '' : 'translate-x-0'} mt-2`}>
                     <Hamburger rounded size={40} duration={0.8} color='white' toggled={isOpen} toggle={setisOpen} />
                 </div>
@@ -53,7 +53,7 @@ export const Navbar = () => {
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
                         REGISTER
                     </div>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/event'>
                         EVENT
                     </Link>
                     <div className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer'>
