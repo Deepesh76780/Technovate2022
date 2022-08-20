@@ -38,7 +38,7 @@ export const Team = () => {
             "phone": "7389666449",
             "email": "ayush19102@iiitnr.edu.in",
             "linkedin": "https://www.linkedin.com/in/ayush-tirkey-b41b5218b",
-            "photo": "./Images/Team/TeamPhotos/Ayush.jpeg",
+            "photo": "./Images/Team/TeamPhotos/Ayush.jpg",
             "css":"bg-cover bg-center"
           },
 
@@ -67,7 +67,7 @@ export const Team = () => {
                 "phone": "9098281522",
                 "email": "meetiksha20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/meetiksha-sorgile-41676922b/",
-                "photo": "./Images/Team/TeamPhotos/Meetiksha.jfif",
+                "photo": "./Images/Team/TeamPhotos/Meetiksha.jpg",
                 "css":"bg-cover bg-center"
               },
               {
@@ -112,7 +112,7 @@ export const Team = () => {
                 "phone": "9340758510",
                 "email": "aayush20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/aayush-dewangan-57ab85203",
-                "photo": "./Images/Team/TeamPhotos/Aayush.jpeg",
+                "photo": "./Images/Team/TeamPhotos/Aayush.jpg",
                 "css":"bg-cover bg-center"
               },
               {
@@ -148,7 +148,7 @@ export const Team = () => {
                 "phone": "6268164699",
                 "email": "aaditya20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/aaditya-kumar-560952217",
-                "photo": "./Images/Team/TeamPhotos/Aaditya.jpeg",
+                "photo": "./Images/Team/TeamPhotos/Aaditya.jpg",
                 "css":"bg-cover bg-center"
               },
               {
@@ -157,7 +157,7 @@ export const Team = () => {
                 "phone": "6309106555",
                 "email": "nishoak20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/nishoak/",
-                "photo": "./Images/Team/TeamPhotos/Nishoak.jpeg",
+                "photo": "./Images/Team/TeamPhotos/Nishoak.jpg",
                 "css":"bg-cover bg-center"
               },
               {
@@ -215,7 +215,7 @@ export const Team = () => {
               "phone": "8269760672",
               "email": "tavisha20101@iiitnr.edu.in",
               "linkedin": "https://www.linkedin.com/in/tavisha-thaware-907190202/",
-              "photo": "./Images/Team/TeamPhotos/Tavisha.jpeg",
+              "photo": "./Images/Team/TeamPhotos/Tavisha.jpg",
               "css":"bg-cover bg-center"
             },
                
