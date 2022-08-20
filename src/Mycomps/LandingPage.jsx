@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Footer } from './Footer/Footer';
+import { LandingPageFooter } from './Footer/LandingPageFooter';
 import { Navbar } from './Navbar';
 var Scroll = require('react-scroll');
 var scroll = Scroll.animateScroll;
@@ -121,7 +122,7 @@ export const LandingPage = (props) => {
                             Connect, Innovate,<br></br> Inspire
                             </div>
                             <div className='text-xl md:text-3xl lg:text-5xl'>
-                                5th - 6th Nov 2022
+                                4th - 6th Nov 2022
                             </div>
                             <div className='h-[40px]'>
 
@@ -181,7 +182,7 @@ export const LandingPage = (props) => {
 
                     </div>
 
-                    <Footer />
+                    <LandingPageFooter />
 
                 </div>
 
@@ -197,7 +198,7 @@ export const LandingPage = (props) => {
                         <div className='flex flex-col spaced justify-start items-start space-y-3'>
                             <div className='text-4xl'>TECHNOVATE</div>
                             <div className='text-2xl'>Connect, Innovate, Inspire</div>
-                            <div className='text-2xl'>5th-6th Nov 2022</div>
+                            <div className='text-2xl'>4th - 6th Nov 2022</div>
                             <div className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</div>
                         </div>
                         <div className='mt-4'>

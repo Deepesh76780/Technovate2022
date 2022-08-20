@@ -32,7 +32,7 @@ export const RoutingPage = () => {
         <Route path="/team" element={<><Team /><Footer /></>} />
         <Route path="/event" element={<><EventLanding /><Footer /></>} />
         <Route path="/blog" element={<><Blogs /><Footer /></>} />
-        <Route path="/nav" element={<div className='h-screen pt-10'  style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}><Navbar /></div>} />
+        {/* <Route path="/nav" element={<div className='h-screen pt-10'  style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}><Navbar /></div>} /> */}
 
     </Routes>
   )

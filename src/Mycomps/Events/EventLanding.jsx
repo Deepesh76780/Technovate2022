@@ -28,7 +28,7 @@ export const EventLanding = () => {
                 </div>
                 <div className='my-5'>
                     {
-                        ShowItems === 0 ? <MockEvent /> : ShowItems === 1 ? <Technical /> : <MockEvent />
+                        ShowItems === 0 ? <MockEvent /> : ShowItems === 1 ? <Technical /> : <Informal />
                     }
                 </div>
             </div>
