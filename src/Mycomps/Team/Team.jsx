@@ -63,7 +63,7 @@ export const Team = () => {
             },
             {
                 "name": "Meetiksha Sorgile",
-                "role": "Outlook Head Lead",
+                "role": "Outlook Team Lead",
                 "phone": "9098281522",
                 "email": "meetiksha20102@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/in/meetiksha-sorgile-41676922b/",
@@ -72,7 +72,7 @@ export const Team = () => {
               },
               {
                 "name": "Shubham Raj Sahu",
-                "role": "Designing Team Lead",
+                "role": "Design & Outlook Team Lead",
                 "phone": "9399088769",
                 "email": "shubhamr20101@iiitnr.edu.in",
                 "linkedin": "https://www.linkedin.com/mwlite/in/shubham-raj-sahu-7474b1194",
