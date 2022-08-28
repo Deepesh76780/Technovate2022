@@ -21,6 +21,15 @@ export const LandingPage = (props) => {
     }, 400);
 
 
+
+
+
+    const earth = document.getElementById('EarthGIF')
+    const spaceship = document.getElementById('spaceShip')
+    const Height = window.innerHeight
+
+
+
     function ScrollToggle(e) {
         if(window.location.pathname === '/'){
             if (ShowBottom) {
@@ -31,17 +40,13 @@ export const LandingPage = (props) => {
                 if (BottomLoaded !== true) {
                     setBottomLoaded(true)
                 }
-                scroll.scrollToBottom();
+                scroll.scrollTo(Height);
                 spaceship.style.transform = `rotate(0deg) translate(0,0vh)`
 
             }
         }
     }
 
-
-    const earth = document.getElementById('EarthGIF')
-    const spaceship = document.getElementById('spaceShip')
-    const Height = window.innerHeight
 
     const getScroll = () => {
         return window.scrollY / Height
@@ -185,9 +190,11 @@ export const LandingPage = (props) => {
                 </div>
 
 
-                        <div className=''>
+                    <div className='translate-y-[-100%]'>
+
                             <LandingPageFooter />
-                        </div>
+                    </div>
+                        
                 
                 </div>
 
