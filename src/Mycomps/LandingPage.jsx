@@ -138,6 +138,7 @@ export const LandingPage = (props) => {
 
                 </div>
 
+                <div>
 
                 <div className='hidden sm:block w-screen h-screen'>
                     <div className='h-[4vh]'></div>
@@ -181,9 +182,13 @@ export const LandingPage = (props) => {
                         </div>
 
                     </div>
+                </div>
 
-                    <LandingPageFooter />
 
+                        <div className=''>
+                            <LandingPageFooter />
+                        </div>
+                
                 </div>
 
 
@@ -218,6 +223,7 @@ export const LandingPage = (props) => {
                         </div>
                     </div>
                 </div>
+
                 <Footer />
 
             </div>
