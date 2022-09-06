@@ -23,14 +23,13 @@ export const Blogs = () => {
             <div className=''>
                 <img src="./Images/Blog/blog.png" className='absolute h-[400px] w-[200px] lg:h-[500px] hidden lg:block lg:w-[320px] left-2 top-[300px]' alt="" />
             </div>
-            <div className='flex flex-col justify-center items-center  md:justify-end  md:items-end w-full md:w-[80%] lg:w-[65%] xl:w-[70%] space-y-5 ml-2 md:ml-20 mr-10 py-20'>
+            <div className='flex flex-col justify-center items-center  md:justify-end  md:items-end w-full md:w-[80%] lg:w-[65%] xl:w-[70%] space-y-5 ml-2 md:ml-20 md:mr-10 py-20'>
 
                 {/* {
                     blogs.map((blog,index)=>{
                        return(
                            <BlogCard key={index} video={blog.video} text={blog.text} />
                        ) 
-                        
                     })
                 } */}
                 {/* Blog Card */}
@@ -48,11 +47,12 @@ export const Blogs = () => {
                                 Yash Khare(2017-2021)<br></br>
                                 Outlook and Design (2018) <br></br>
                                 Student Coordinator (2019-2020)
-
                             </div>
                         </div>
                     </div>
                 </div>
+
+
                 {/* End Blog Card */}
                 {/* Blog Card */}
                 <div>
