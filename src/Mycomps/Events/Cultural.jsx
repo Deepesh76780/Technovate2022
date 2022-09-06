@@ -4,20 +4,22 @@ import { EventCard } from './EventCard'
 export const Cultural = () => {
 
     const cultural = [
+        { name: "Let's Nacho", image: './Images/Event/cultural.png' },
+        { name: "The New Vogue", image: './Images/Event/cultural.png' },
         { name: 'Rangotsav', image: './Images/Event/cultural.png' },
 
-        { name: 'Raag Ratri', image: './Images/Event/cultural.png' },
+        // { name: 'Raag Ratri', image: './Images/Event/cultural.png' },
 
-        { name: 'What do you meme', image: './Images/Event/cultural.png' },
+        // { name: 'What do you meme', image: './Images/Event/cultural.png' },
 
-        { name: "Let's Nacho", image: './Images/Event/cultural.png' },
-        { name: 'Nukkad Natak Contest', image: './Images/Event/cultural.png' },
 
-        { name: 'Battle of Bands', image: './Images/Event/cultural.png' },
+        // { name: 'Nukkad Natak Contest', image: './Images/Event/cultural.png' },
 
-        { name: 'Fashion Contest', image: './Images/Event/cultural.png' },
+        // { name: 'Battle of Bands', image: './Images/Event/cultural.png' },
 
-        { name: "Gamer's Crusade (Valorant)", image: './Images/Event/cultural.png' },
+        // { name: 'Fashion Contest', image: './Images/Event/cultural.png' },
+
+        { name: "Gamer's Crusade", image: './Images/Event/cultural.png' },
 
 
     ]
