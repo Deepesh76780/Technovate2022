@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar } from '../Navbar'
 import { TeamCard } from './TeamCard'
+import { TeamCard2 } from './TeamCard2'
 
 export const Team = () => {
 
@@ -76,7 +77,7 @@ export const Team = () => {
       "phone": "9399088769",
       "email": "shubhamr20101@iiitnr.edu.in",
       "linkedin": "https://www.linkedin.com/mwlite/in/shubham-raj-sahu-7474b1194",
-      "photo": "./Images/Team/TeamPhotos/Shubham1.jpg",
+      "photo": "./Images/Team/TeamPhotos/Shubham.jpg",
       "css": "bg-cover bg-center"
     },
     {
@@ -230,8 +231,7 @@ export const Team = () => {
         <div className='grid xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 my-10 gap-x-4 md:gap-x-5 xl:gap-x-12 gap-y-6'>
           {
             team.map((item, index) => {
-              return (<TeamCard name={item.name} role={item.role} image={item.photo} phone={item.phone} email={item.email} linkedin={item.linkedin} css={item.css} key={index} />)
-
+              return (<TeamCard2 name={item.name} role={item.role} image={item.photo} phone={item.phone} email={item.email} linkedin={item.linkedin} css={item.css} key={index} />)
             })
           }
 
