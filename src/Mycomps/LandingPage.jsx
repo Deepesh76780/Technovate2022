@@ -222,7 +222,7 @@ export const LandingPage = (props) => {
                             Technovate is the annual techno-cultural fest of IIIT-NR which includes but is not limited to Coding competitions, Hacking Competitions, Battle of Bands, keynote sessions by renowned speakers, etcetera; to be held in the month of November.  In the span of 3 days, Technovate is designed to provide a powerful problem-solving environment to help build new ideas as well as a stage to showcase one's cultural prowess which range from stand-ups to renounced singers and EDM. In the last edition, Technovate received 5000+ registrations and this time, with the scale and the time-gap being much larger, we are expecting over 7000+ registrations. The main idea behind Technovate is to provide students with a dynamic environment to showcase their skills in any field they desire.
                             </div>
                             <div>
-                                <div className='text-xl tracking-wide text-center spaced'>Technovate 2k22 Teaser</div>
+                                <div className='text-xl tracking-wide text-center spaced'>Technovate 2022 Teaser</div>
                                 <video className='h-[240px] w-full px-2 mt-5' controls poster="./Images/Blog/logo.png" >
                                     <source src='./Images/teaser.mp4' type="video/mp4" />
                                 </video>

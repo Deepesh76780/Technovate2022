@@ -14,7 +14,7 @@ export const Technical = () => {
             image: './Images/Event/Technical/itsdatatime.png'
         },
         {
-            name: 'Technovate Hackathon 2k22',
+            name: 'Technovate Hackathon 2022',
             details: 'Rang Saari',
             image: './Images/Event/Technical/hackathon.png'
         },

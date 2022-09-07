@@ -46,7 +46,7 @@ export const Navbar = () => {
             </div>
             <div className={`z-20 sm:hidden pt-[2.5rem] px-2 text-white space-y-5 flex flex-col h-screen w-[260px] fixed top-0 right-0  bg-black bg-opacity-75 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition duration-[800ms] `}>
                 <Link to='/' className='text-xl'>
-                    Technovate 2k22
+                    Technovate 2022
                 </Link>
                 <div className='w-full h-0.5 bg-white -mx-2'></div>
                 <div className='flex flex-col space-y-5'>
@@ -65,7 +65,7 @@ export const Navbar = () => {
                     <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/team'>
                         TEAM
                     </Link>
-                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/'>
+                    <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/blog'>
                         BLOGS
                     </Link>
                 </div>

@@ -65,10 +65,10 @@ export const Blogs = () => {
                                 <span className='font-bold tracking-normal'>
                                     “Be confident and overconfident cause you are no longer a student, you are part of technovate.”
                                 </span><br></br>
-                                Technovate 2020, had one of the best line ups but also faced the worst of times due to the pandemic which ended in lockdown and cancellation of the fest just after the ‘7 days to go’ poster was revealed. Nitin was at the center, he was the head coordinator and a first hand witness of the hardships that the team went through. For him, it took months to recover.They broke barriers and achieved several milestones especially when it came to sponsorship and the celebrity night. His key advice for any student body would be to have backups cause one can never predict what could go down on the day of event.
+                                Technovate 2020, had one of the best line ups but also faced the worst of times due to the pandemic which ended in lockdown and cancellation of the fest just after the ‘7 days to go’ poster was revealed. Nitin was at the center, he was the head coordinator and a first hand witness of the hardships that the team went through. For him, it took months to recover. They broke barriers and achieved several milestones especially when it came to sponsorship and the celebrity night. His key advice for any student body would be to have backups cause one can never predict what could go down on the day of event.
                             </div>
                             <div className='text-base font-semibold text-right'>
-                                Nitin Chandrakar (2017-2021)<br></br>
+                                Nitin Chandra (2017-2021)<br></br>
                                 Media marketing  (2018) <br></br>
                                 Student coordinator (2019-2020)
                             </div>
