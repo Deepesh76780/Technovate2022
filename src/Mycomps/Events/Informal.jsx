@@ -23,21 +23,21 @@ export const Informal = () => {
             details: 'Rang Saari',
             image: './Images/Event/informal2.png'
         },
-        // {
-        //     name: '60 Seconds to fame',
-        //     details: 'Rang Saari',
-        //     image: './Images/Event/informal2.png'
-        // },
-        // {
-        //     name: 'Improv Battle',
-        //     details: 'Rang Saari',
-        //     image: './Images/Event/informal2.png'
-        // },
-        // {
-        //     name: 'Dance-off',
-        //     details: 'Rang Saari',
-        //     image: './Images/Event/informal2.png'
-        // },
+        {
+            name: 'Smash Hitz',
+            details: 'Rang Saari',
+            image: './Images/Event/informal2.png'
+        },
+        {
+            name: 'Casino Royale',
+            details: 'Rang Saari',
+            image: './Images/Event/informal2.png'
+        },
+        {
+            name: 'VR Gaming',
+            details: 'Rang Saari',
+            image: './Images/Event/informal2.png'
+        },
         // {
         //     name: 'Slam Battle',
         //     details: 'Rang Saari',
