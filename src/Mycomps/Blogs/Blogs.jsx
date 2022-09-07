@@ -20,6 +20,9 @@ export const Blogs = () => {
     return (
         <div className='sm:pt-6 bg-cover bg-center text-white bg-no-repeat flex flex-col justify-start items-end relative' style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}>
             <div className='w-full'><Navbar /></div>
+            <div className='w-full pt-5 flex flex-col justify-center items-center'>
+                <div className="block w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 hover:border-[#fbfbfb] hover:text-[#fbfbfb] transition-colors duration-300 border-[#E72D2D] text-[#E72D2D]">Blog</div>
+            </div>
             <div className=''>
                 <img src="./Images/Blog/blog.png" className='absolute h-[400px] w-[200px] lg:h-[500px] hidden lg:block lg:w-[320px] left-2 top-[300px]' alt="" />
             </div>
