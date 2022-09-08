@@ -55,7 +55,7 @@ export const Footer = () => {
         },
         {
             name: 'Blog',
-            url: '/'
+            url: '/blog'
         }
 
     ]

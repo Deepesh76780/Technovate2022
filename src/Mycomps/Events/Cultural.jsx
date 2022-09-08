@@ -4,7 +4,7 @@ import { EventCard } from './EventCard'
 export const Cultural = () => {
 
     const cultural = [
-        { name: "Let's Nacho", image: './Images/Event/cultural.png' },
+        { name: "Battle of Dancers", image: './Images/Event/cultural.png' },
         { name: "The New Vogue", image: './Images/Event/cultural.png' },
         { name: 'Rangotsav', image: './Images/Event/cultural.png' },
 
@@ -20,6 +20,8 @@ export const Cultural = () => {
         // { name: 'Fashion Contest', image: './Images/Event/cultural.png' },
 
         { name: "Gamer's Crusade", image: './Images/Event/cultural.png' },
+        { name: "Awaaz", image: './Images/Event/cultural.png' },
+        { name: "What do you meme?", image: './Images/Event/cultural.png' },
 
 
     ]
