@@ -48,7 +48,7 @@ export const Blogs = () => {
                             </div>
                             <div className='text-base font-semibold text-right'>
                                 Yash Khare(2017-2021)<br></br>
-                                Outlook and Design (2018) <br></br>
+                                Outlook and Design  (2018) <br></br>
                                 Student Coordinator (2019-2020)
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export const Blogs = () => {
                             </div>
                             <div className='text-base font-semibold text-right'>
                                 Nitin Chandra (2017-2021)<br></br>
-                                Media marketing  (2018) <br></br>
+                                Media Marketing  (2018) <br></br>
                                 Student coordinator (2019-2020)
                             </div>
                         </div>

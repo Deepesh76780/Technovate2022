@@ -10,20 +10,8 @@ export const SubEvent = () => {
     }, [])
     
     const data = location.state.details
-    const event_heads = [
-        'Himanshu',
-        'Yadav',
-        'Yadav',
-        'Yadav',
-        'Yadav',
-        'Yadav',
-        'Yadav',
-        'Yadav',
-    ]
-    const volunteers = [
-        'Rony',
-        'Joseph'
-    ]
+    const event_heads = data.event_heads
+    const volunteers = data.volunteer_heads
 
     return (
         <div>
@@ -37,12 +25,11 @@ export const SubEvent = () => {
                     </div>
                     <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between w-full items-center space-x-2 lg:space-x-10'>
                         <div className=''>
-                            <img src="./Images/Event/Cultural/Subevents/gamerscrusade.jpg" className='h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl' alt="" />
+                            <img src="./Images/Event/technovate2022.jpg" className='h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl' alt="" />
                         </div>
                         <div className='flex flex-col justify-end items-end space-y-2'>
                             <div className='bg-black bg-opacity-50 text-white w-[450px] lg:w-[600px] text-xl rounded-xl p-4'>
-                                A Group competition to show the colors and energy of the youth through dance.
-                                Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances.
+                                {data.event_detail}
                             </div>
                             <div className='text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
                                 Learn more
@@ -71,6 +58,7 @@ export const SubEvent = () => {
                                 }
                             </div>
                         </div>
+                        {volunteers.length !== 0  ? 
                         <div className='flex flex-col space-y-2'>
                             <div className='text-2xl'>
                                 Volunteers
@@ -91,7 +79,7 @@ export const SubEvent = () => {
 
                                 }
                             </div>
-                        </div>
+                        </div> : null}
                     </div>
                 </div>
             </div>
