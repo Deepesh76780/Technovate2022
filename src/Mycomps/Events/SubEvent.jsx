@@ -25,14 +25,14 @@ export const SubEvent = () => {
                     </div>
                     <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between w-full items-center space-x-2 lg:space-x-10'>
                         <div className=''>
-                            <img src="./Images/Event/technovate2022.jpg" className='h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl' alt="" />
+                            <img src="./Images/Event/subevents/bug bash@4x.png" className='h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl' alt="" />
                         </div>
-                        <div className='flex flex-col justify-end items-end space-y-2'>
+                        <div className='flex flex-col justify-center items-center space-y-2 just'>
                             <div className='bg-black bg-opacity-50 text-white w-[450px] lg:w-[600px] text-xl rounded-xl p-4'>
                                 {data.event_detail}
                             </div>
                             <div className='text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
-                                Learn more
+                                Register Now
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export const SubEvent = () => {
                             <div className='text-2xl'>
                                 Event Heads
                             </div>
-                            <div className='grid grid-cols-1 sm:grid-cols-4 md:grid-cols-5 gap-3 w-full'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 w-full'>
                                 {event_heads.map((event_head, index) => {
                                     return (
                                         <div className='flex flex-row items-center justify-start' key={index}>
@@ -63,7 +63,7 @@ export const SubEvent = () => {
                             <div className='text-2xl'>
                                 Volunteers
                             </div>
-                            <div className='grid grid-cols-1 sm:grid-cols-4 md:grid-cols-5 gap-3 w-full'>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 w-full'>
                                 {volunteers.map((volunteer, index) => {
                                     return (
                                         <div className='flex flex-row items-center justify-start' key={index}>
