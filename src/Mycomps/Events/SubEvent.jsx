@@ -13,10 +13,13 @@ export const SubEvent = () => {
     const event_heads = data.event_heads
     const volunteers = data.volunteer_heads
     let registration_link = "/"
+    let event_poster = "./Images/Event/technovate2022.jpg"
     if(data.registration_link !== ""){
         registration_link = data.registration_link
     }
-    console.log(registration_link)
+    if(data.event_poster !==""){
+        event_poster=data.event_poster
+    }
     return (
         <div>
             <div className='bg-cover sm:pt-6 bg-center text-white bg-no-repeat flex flex-col justify-center items-center relative z-10' style={{ backgroundImage: "url(./Images/Background.jpg)" }}>
@@ -29,7 +32,7 @@ export const SubEvent = () => {
                     </div>
                     <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between w-full items-center space-x-2 lg:space-x-10'>
                         <div className=''>
-                            <img src={data.event_poster} className='h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl' alt="" />
+                            <img src={event_poster} className='h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl' alt="" />
                         </div>
                         <div className='flex flex-col justify-center items-center space-y-2 just'>
                             <div className='bg-black bg-opacity-50 text-white w-[90%] sm:w-[450px] lg:w-[600px] text-xl rounded-xl p-4'>
