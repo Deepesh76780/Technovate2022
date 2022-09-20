@@ -64,7 +64,7 @@ export const Cultural = () => {
           "image": "./Images/Event/cultural.png",
           "event_poster": "",
           "rulebook": "",
-          "event_heads": ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
+          "event_heads": ["Aadi Juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
           "volunteer_heads": []
         }
       ]
