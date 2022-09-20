@@ -27,7 +27,7 @@ export const Cultural = () => {
       name: "Rangotsav",
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
-      image: "./Images/Event/cultural.png",
+      image: "./Images/Event/Cultural/rangotsav.png",
       event_poster: "",
       rulebook: "",
       event_heads: ["Sahil", "Riya D"],
@@ -37,7 +37,7 @@ export const Cultural = () => {
       name: "Raag Ratri",
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion, in their mother tongue. Musicality and command over vocals and instruments remains the biggest criteria",
-      image: "./Images/Event/cultural.png",
+      image: "./Images/Event/Cultural/raagraatri.png",
       event_poster: "",
       rulebook: "",
       event_heads: ["Priyanshu Deori", "Jaydeep Singh", "Anirudh Bhakar"],
@@ -47,7 +47,7 @@ export const Cultural = () => {
       name: "Battle of Bands",
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances, and impress the judges. ",
-      image: "./Images/Event/cultural.png",
+      image: "./Images/Event/Cultural/bands.png",
       event_poster: "",
       rulebook: "",
       event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
@@ -57,7 +57,7 @@ export const Cultural = () => {
       name: "Gamer's Crusade",
       details:
         " An Esports tournament by Technovate IIIT-NR consisting of Mobile and PC games open for all Esports players across the country. The tournament consists of  3 games namely:- BGMI, Valorant, CS:GO. Players can participate in the event and win a prize pool worth thousands in each game. ",
-      image: "./Images/Event/cultural.png",
+      image: "./Images/Event/Cultural/gamers.png",
       event_poster: "",
       rulebook: "",
       event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
@@ -67,7 +67,7 @@ export const Cultural = () => {
       name: "Awaaz",
       details:
         "Awaaz is a form of street play to create awareness or strengthen social emotions. The less seen, the more heard. The eye is the enemy of the ear in real drama.",
-      image: "./Images/Event/cultural.png",
+      image: "./Images/Event/Cultural/stage.png",
       event_poster: "",
       rulebook: "",
       event_heads: ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
