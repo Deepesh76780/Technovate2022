@@ -2,6 +2,7 @@ import React from "react";
 import { EventCard } from "./EventCard";
 
 export const Cultural = () => {
+
   const cultural = [
     {
       name: "Battle of Dancers",
