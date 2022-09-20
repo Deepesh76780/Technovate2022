@@ -35,6 +35,11 @@ export const Navbar = () => {
                         BLOGS
                     </Link>
                 </div>
+                <a className='hidden lg:block absolute right-12' href="https://unstop.com/competition/campus-ambassador-program-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-437633" target="_blank" rel="noreferrer">
+                    <div className='glow-on-hover px-2 text-center text-xs flex justify-center items-center'>
+                        Campus Ambassdor Program
+                    </div>
+                </a>
             </div>
             <div className='sm:hidden flex flex-row justify-between items-center mx-2'>
                 <Link to='/' className='mt-2'>
@@ -68,6 +73,9 @@ export const Navbar = () => {
                     <Link className='hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer' to='/blog'>
                         BLOGS
                     </Link>
+                    <a className='glow-on-hover px-2 text-center text-xs flex justify-center items-center' href="https://unstop.com/competition/campus-ambassador-program-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-437633"  target="_blank" rel="noreferrer">
+                        Campus Ambassdor Program
+                    </a>
                 </div>
             </div>
         </div>

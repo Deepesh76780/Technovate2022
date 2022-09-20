@@ -42,6 +42,27 @@ export const Team = () => {
       "photo": "./Images/Team/TeamPhotos/Srishti.jpg",
       "css": "bg-cover bg-center"
     },
+    {
+      "name": "Aryan Kaul",
+      "role": "Partnership Team Lead",
+      "phone": "8826557777",
+      "email": "aryan20102@iiitnr.edu.in",
+      "linkedin": " https://www.linkedin.com/in/aryan-kaul-91907b206",
+      "photo": "./Images/Team/TeamPhotos/Aryan.jpeg",
+      "css": "bg-cover bg-center"
+    },
+
+
+
+    {
+      "name": "Tavisha Thaware",
+      "role": "Partnership Team Lead",
+      "phone": "8269760672",
+      "email": "tavisha20101@iiitnr.edu.in",
+      "linkedin": "https://www.linkedin.com/in/tavisha-thaware-907190202/",
+      "photo": "./Images/Team/TeamPhotos/Tavisha.jpg",
+      "css": "bg-cover bg-center"
+    },
 
 
     {
@@ -143,13 +164,31 @@ export const Team = () => {
       "linkedin": "https://www.linkedin.com/in/rony-joseph-0619bb205/",
       "photo": "./Images/Team/TeamPhotos/Rony.jpg"
     },
+    // {
+    //   "name": "Aaditya Kumar",
+    //   "role": "Cultural Team Lead",
+    //   "phone": "6268164699",
+    //   "email": "aaditya20101@iiitnr.edu.in",
+    //   "linkedin": "https://www.linkedin.com/in/aaditya-kumar-560952217",
+    //   "photo": "./Images/Team/TeamPhotos/Aaditya.jpg",
+    //   "css": "bg-cover bg-center"
+    // },
     {
-      "name": "Aaditya Kumar",
+      "name": "Aniket Kumar",
       "role": "Cultural Team Lead",
-      "phone": "6268164699",
-      "email": "aaditya20101@iiitnr.edu.in",
-      "linkedin": "https://www.linkedin.com/in/aaditya-kumar-560952217",
-      "photo": "./Images/Team/TeamPhotos/Aaditya.jpg",
+      "phone": "7986136181",
+      "email": "aniket20102@iiitnr.edu.in",
+      "linkedin": "https://www.linkedin.com/in/aniket-kumar-a4a132230/",
+      "photo": "./Images/Team/TeamPhotos/aniket1.jpg",
+      "css": "bg-cover bg-center"
+    },
+    {
+      "name": "Priyank Singh",
+      "role": "Cultural Team Lead",
+      "phone": "8756440210",
+      "email": "priyank20102@iiitnr.edu.in",
+      "linkedin": "https://www.linkedin.com/in/priyank-singh-2431a222b/",
+      "photo": "./Images/Team/TeamPhotos/priyank.jpg",
       "css": "bg-cover bg-center"
     },
     {
@@ -198,27 +237,6 @@ export const Team = () => {
       "css": "bg-cover bg-center"
     },
 
-    {
-      "name": "Aryan Kaul",
-      "role": "Partnership Team Lead",
-      "phone": "8826557777",
-      "email": "aryan20102@iiitnr.edu.in",
-      "linkedin": " https://www.linkedin.com/in/aryan-kaul-91907b206",
-      "photo": "./Images/Team/TeamPhotos/Aryan.jpeg",
-      "css": "bg-cover bg-center"
-    },
-
-
-
-    {
-      "name": "Tavisha Thaware",
-      "role": "Partnership Team Lead",
-      "phone": "8269760672",
-      "email": "tavisha20101@iiitnr.edu.in",
-      "linkedin": "https://www.linkedin.com/in/tavisha-thaware-907190202/",
-      "photo": "./Images/Team/TeamPhotos/Tavisha.jpg",
-      "css": "bg-cover bg-center"
-    },
 
   ]
   return (
