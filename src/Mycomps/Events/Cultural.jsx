@@ -11,6 +11,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/dance.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Sontu Akshath Rishi", "Akriti Dhurandher"],
       volunteer_heads: [],
     },
@@ -21,6 +22,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/fashion.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Sanjam Bedi", "Shristi Tiwari"],
       volunteer_heads: [],
     },
@@ -31,6 +33,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/rangotsav.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Sahil", "Riya D"],
       volunteer_heads: [],
     },
@@ -41,6 +44,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/raagraatri.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Priyanshu Deori", "Jaydeep Singh", "Anirudh Bhakar"],
       volunteer_heads: [],
     },
@@ -51,6 +55,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/bands.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
       volunteer_heads: [],
     },
@@ -61,6 +66,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/gamers.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
       volunteer_heads: [],
     },
@@ -71,6 +77,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/stage.png",
       event_poster: "",
       rulebook: "",
+      registration_link:"",
       event_heads: ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
       volunteer_heads: [],
     },
@@ -86,6 +93,8 @@ export const Cultural = () => {
             volunteer_heads={item.volunteer_heads}
             key={index}
             image={item.image}
+            event_poster={item.event_poster}
+            registration_link={item.registration_link}
           />
         );
       })}
