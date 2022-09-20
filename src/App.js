@@ -1,10 +1,8 @@
 import "./App.css";
-import { BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { RoutingPage } from "./Mycomps/Router/RoutingPage";
 
-
 function App() {
-
   // document.addEventListener('wheel',()=>{
   //   if(window.location.pathname === '/'){
   //       document.body.style.overflowY = 'hidden';
@@ -14,26 +12,22 @@ function App() {
   //   }
   // })
 
-
-
   return (
     <div>
-    <BrowserRouter>
-    <RoutingPage/>
-    {/* <Routes>
+      <BrowserRouter>
+        <RoutingPage />
+        {/* <Routes>
       <Route path="/" element={<><LandingPage /></>} />
       <Route path="/team" element={<><Team /><Footer /></>} />
       <Route path="/event" element={<><EventLanding /><Footer /></>} />
       <Route path="/blog" element={<><Blogs /><Footer /></>} />
     </Routes> */}
-    {/* <LandingPage/> */}
-    {/* <Team /> */}
-    {/* <Blogs /> */}
-    {/* <EventLanding /> */}
-    {/* <Footer /> */}
-    </BrowserRouter>
-    
-    
+        {/* <LandingPage/> */}
+        {/* <Team /> */}
+        {/* <Blogs /> */}
+        {/* <EventLanding /> */}
+        {/* <Footer /> */}
+      </BrowserRouter>
     </div>
   );
 }
