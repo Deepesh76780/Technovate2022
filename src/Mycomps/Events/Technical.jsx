@@ -132,7 +132,7 @@ export const Technical = () => {
       image: "./Images/Event/Technical/investomania.png",
       event_poster: "./Images/Event/subevents/technical/investomania@4x.png",
       rulebook: "",
-      registration_link:"",
+      registration_link:"https://unstop.com/competition/investomania-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-439867",
       event_heads: ["Harsh Pandey", "Shubhanshu Arya"],
       volunteer_heads: ["Tushar Singh"],
     },
