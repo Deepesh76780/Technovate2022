@@ -8,11 +8,20 @@ export const Cultural = () => {
       details:
         " A Dance competition to show the colors and energy of the youth through dance.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances",
       image: "./Images/Event/Cultural/dance.png",
-      event_poster: "./Images/Event/subevents/cultural/battle of dancers@4x.png",
+      event_poster:
+        "./Images/Event/subevents/cultural/battle of dancers@4x.png",
       rulebook: "",
-      registration_link: ["https://unstop.com/creative-cultural-event/lets-nacho-group-technovate-2022-international-institute-of-information-technology-iiit-naya-rai-440203","https://unstop.com/creative-cultural-event/lets-nacho-solo-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440200"],
+      registration_link: [
+        "https://unstop.com/creative-cultural-event/lets-nacho-group-technovate-2022-international-institute-of-information-technology-iiit-naya-rai-440203",
+        "https://unstop.com/creative-cultural-event/lets-nacho-solo-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440200",
+      ],
       event_heads: ["Sontu Akshath Rishi", "Akriti Dhurandher"],
-      volunteer_heads: [],
+      volunteer_heads: [
+        "Jitendra Kumar",
+        "Sahil Dewangan",
+        "Jyoti sahu",
+        "Vishal Raj Bais",
+      ],
     },
     {
       name: "The New Vogue",
@@ -34,7 +43,7 @@ export const Cultural = () => {
       rulebook: "",
       registration_link: "",
       event_heads: ["Sahil", "Riya D"],
-      volunteer_heads: [],
+      volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
     {
       name: "Raag Ratri",
@@ -44,8 +53,16 @@ export const Cultural = () => {
       event_poster: "./Images/Event/subevents/cultural/Raag Raatri@4x.png",
       rulebook: "",
       registration_link: "",
-      event_heads: ["Priyanshu Deori", "Jaydeep Singh", "Anirudh Bhakar"],
-      volunteer_heads: [],
+      event_heads: ["Shreedhar Tiwari", "Sonali Tudu"],
+      volunteer_heads: [
+        "Akash Trivedi",
+        "Sahil Dewangan",
+        "Jaydeep- Host",
+        "Nidhi Vaishnav",
+        "Jyoti Khute",
+        "Rahul Meshram",
+        "Nikhil Kumar kurrey",
+      ],
     },
     {
       name: "Battle of Bands",
@@ -56,7 +73,7 @@ export const Cultural = () => {
       rulebook: "",
       registration_link: "",
       event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
-      volunteer_heads: [],
+      volunteer_heads: ["Nikhil Kumar kurrey", "Chirag Matta", "Ajay Kumar"],
     },
     {
       name: "Gamer's Crusade",
@@ -67,7 +84,13 @@ export const Cultural = () => {
       rulebook: "",
       registration_link: "",
       event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
-      volunteer_heads: [],
+      volunteer_heads: [
+        "Akshay Pandey",
+        "Chirag Jain",
+        "Aarsh Vaidya",
+        "Srijan Ratrey",
+        "Ramesh Chandra Bhanu",
+      ],
     },
     {
       name: "Awaaz",
@@ -78,7 +101,7 @@ export const Cultural = () => {
       rulebook: "",
       registration_link: "",
       event_heads: ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
-      volunteer_heads: [],
+      volunteer_heads: ["Aaditya Kumar", "Vinod chandravanshi"],
     },
   ];
   return (
