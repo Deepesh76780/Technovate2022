@@ -57,7 +57,7 @@ export const Cultural = () => {
       volunteer_heads: [
         "Akash Trivedi",
         "Sahil Dewangan",
-        "Jaydeep- Host",
+        "Jaydeep",
         "Nidhi Vaishnav",
         "Jyoti Khute",
         "Rahul Meshram",

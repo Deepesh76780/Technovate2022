@@ -67,7 +67,7 @@ export const Technical = () => {
       image: "./Images/Event/Technical/buzzreign.png",
       event_poster: "./Images/Event/subevents/technical/buzzreign@4x.png",
       rulebook: "",
-      registration_link:"",
+      registration_link:"https://unstop.com/competition/buzzreign-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-440433?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
       event_heads: ["Aayushman", "Aadi Juvekar"],
       volunteer_heads: ["Anshul Gupta", "Firoz Ahmed", "Nanditha"],
     },
