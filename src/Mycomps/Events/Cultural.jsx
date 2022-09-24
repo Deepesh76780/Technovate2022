@@ -8,7 +8,7 @@ export const Cultural = () => {
       details:
         " A Dance competition to show the colors and energy of the youth through dance.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances",
       image: "./Images/Event/Cultural/dance.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/battle of dancers@4x.png",
       rulebook: "",
       registration_link: ["https://unstop.com/creative-cultural-event/lets-nacho-group-technovate-2022-international-institute-of-information-technology-iiit-naya-rai-440203","https://unstop.com/creative-cultural-event/lets-nacho-solo-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440200"],
       event_heads: ["Sontu Akshath Rishi", "Akriti Dhurandher"],
@@ -19,7 +19,7 @@ export const Cultural = () => {
       details:
         'Brace yourselves for a wide variety of dressing styles, with sassy attires, a touch of makeup, and a body filled with confidence and enthusiasm, and bring out the best of fashion sense that you have. Let us bring together all the fashion enthusiasts and launch "The New Vogue" ',
       image: "./Images/Event/Cultural/crown.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/The New Vogue-1.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Sanjam Bedi", "Shristi Tiwari"],
@@ -30,7 +30,7 @@ export const Cultural = () => {
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
       image: "./Images/Event/Cultural/rangotsav.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/Canvas Carnival.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Sahil", "Riya D"],
@@ -41,7 +41,7 @@ export const Cultural = () => {
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion, in their mother tongue. Musicality and command over vocals and instruments remains the biggest criteria",
       image: "./Images/Event/Cultural/raagraatri.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/Raag Raatri@4x.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Priyanshu Deori", "Jaydeep Singh", "Anirudh Bhakar"],
@@ -52,7 +52,7 @@ export const Cultural = () => {
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances, and impress the judges. ",
       image: "./Images/Event/Cultural/bands.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/battle of bands@4x.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
@@ -63,7 +63,7 @@ export const Cultural = () => {
       details:
         " An Esports tournament by Technovate IIIT-NR consisting of Mobile and PC games open for all Esports players across the country. The tournament consists of  3 games namely:- BGMI, Valorant, CS:GO. Players can participate in the event and win a prize pool worth thousands in each game. ",
       image: "./Images/Event/Cultural/gamers.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/GC_valo@4x.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
@@ -74,7 +74,7 @@ export const Cultural = () => {
       details:
         "Awaaz is a form of street play to create awareness or strengthen social emotions. The less seen, the more heard. The eye is the enemy of the ear in real drama.",
       image: "./Images/Event/Cultural/stage.png",
-      event_poster: "",
+      event_poster: "./Images/Event/subevents/cultural/Awaaz.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
