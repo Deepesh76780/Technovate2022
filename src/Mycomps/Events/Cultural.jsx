@@ -10,7 +10,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/dance.png",
       event_poster: "",
       rulebook: "",
-      registration_link: "",
+      registration_link: ["https://unstop.com/creative-cultural-event/lets-nacho-group-technovate-2022-international-institute-of-information-technology-iiit-naya-rai-440203","https://unstop.com/creative-cultural-event/lets-nacho-solo-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440200"],
       event_heads: ["Sontu Akshath Rishi", "Akriti Dhurandher"],
       volunteer_heads: [],
     },

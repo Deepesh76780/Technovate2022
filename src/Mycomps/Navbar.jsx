@@ -16,10 +16,11 @@ export const Navbar = () => {
           />
         </Link>
 
+
         <div className="flex flex-row space-x-[1.5vw] md:space-x-[2vw] lg:space-x-[3vw] text-red-100 text-lg md:text-[20px] spaced px-[10vw] ">
-          <div className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
+          <a  rel="noreferrer" href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' target='_blank' className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
             REGISTER
-          </div>
+          </a>
           <Link
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
             to="/event"
@@ -72,9 +73,8 @@ export const Navbar = () => {
         </div>
       </div>
       <div
-        className={`z-20 sm:hidden pt-[2.5rem] px-2 text-white space-y-5 flex flex-col h-screen w-[260px] fixed top-0 right-0  bg-black bg-opacity-75 ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        } transition duration-[800ms] `}
+        className={`z-20 sm:hidden pt-[2.5rem] px-2 text-white space-y-5 flex flex-col h-screen w-[260px] fixed top-0 right-0  bg-black bg-opacity-75 ${isOpen ? "translate-x-0" : "translate-x-full"
+          } transition duration-[800ms] `}
       >
         <Link to="/" className="text-xl">
           Technovate 2022

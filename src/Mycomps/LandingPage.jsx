@@ -132,9 +132,9 @@ export const LandingPage = (props) => {
                             <div className='h-[40px]'>
 
                             </div>
-                            <div className='flex justify-center items-center w-[7em] h-[2.6em] uppercase text-3xl  spaced tracking-widest rounded-md border cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
+                            <a  rel="noreferrer" href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' target='_blank' className='flex justify-center items-center w-[7em] h-[2.6em] uppercase text-3xl  spaced tracking-widest rounded-md border cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
                                 REGISTER
-                            </div>
+                            </a>
 
 
                         </div>
@@ -211,7 +211,7 @@ export const LandingPage = (props) => {
                             <div className='text-4xl'>TECHNOVATE</div>
                             <div className='text-2xl'>Connect, Innovate, Inspire</div>
                             <div className='text-2xl'>4th - 6th Nov 2022</div>
-                            <div className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</div>
+                            <a href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915'  rel="noreferrer" target='_blank' className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</a>
                         </div>
                         <div className='mt-4'>
                             <img id='EarthGIF' alt="" src="Images/Earth.gif" className='h-60 w-60 rounded-full mx-auto' />
