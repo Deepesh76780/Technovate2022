@@ -42,7 +42,7 @@ export const SubEvent = () => {
                             </div>
                             {
                                 data.event_name === 'Battle of Dancers' ? (
-                                    <div className='flex flex-col  md:flex-row md:space-x-2 py-2'>
+                                    <div className='flex flex-col  md:flex-row md:space-x-2 py-2 space-y-2 md:space-y-0'>
                                         <a href={data.registration_link[0]} target="_blank"  rel="noreferrer" className='text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
                                         Register Now (Group)
                                         </a>
