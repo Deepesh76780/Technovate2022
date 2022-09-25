@@ -32,8 +32,8 @@ export const Technical = () => {
       event_poster: "./Images/Event/subevents/technical/hacknovate@4x.png",
       rulebook: "",
       registration_link:"https://unstop.com/hackathon/hacknovate-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-440060",
-      event_heads: ["Vinayak", "Gaurish"],
-      volunteer_heads: ["Sankalp", "Vandit Tyagi"],
+      event_heads: ["Vinayak", "Sankalp"],
+      volunteer_heads: ["Gaurish", "Vandit Tyagi"],
     },
     {
       name: "Robolution",
