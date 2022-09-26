@@ -46,7 +46,7 @@ export const Cultural = () => {
       volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
     {
-      name: "Raag Ratri",
+      name: "Raag Raatri",
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion, in their mother tongue. Musicality and command over vocals and instruments remains the biggest criteria",
       image: "./Images/Event/Cultural/raagraatri.png",
@@ -71,7 +71,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/bands.png",
       event_poster: "./Images/Event/subevents/cultural/battle of bands@4x.png",
       rulebook: "",
-      registration_link: "",
+      registration_link: "https://unstop.com/creative-cultural-event/battle-of-bands-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
       event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
       volunteer_heads: ["Nikhil Kumar kurrey", "Chirag Matta", "Ajay Kumar"],
     },
