@@ -81,9 +81,9 @@ export const Navbar = () => {
         </Link>
         <div className="w-full h-0.5 bg-white -mx-2"></div>
         <div className="flex flex-col space-y-5">
-          <div className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
+        <a  rel="noreferrer" href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' target='_blank' className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
             REGISTER
-          </div>
+          </a>
           <Link
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
             to="/event"
