@@ -52,7 +52,7 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/raagraatri.png",
       event_poster: "./Images/Event/subevents/cultural/Raag Raatri@4x.png",
       rulebook: "",
-      registration_link: "",
+      registration_link: "https://unstop.com/creative-cultural-event/raag-raatri-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-442714?lb=krS2uTq",
       event_heads: ["Shreedhar Tiwari", "Sonali Tudu"],
       volunteer_heads: [
         "Akash Trivedi",

@@ -27,7 +27,7 @@ export const Technical = () => {
     {
       name: "Hacknovate",
       details:
-        "A generic hackathon where participating teams will be developing solutions for specific problem statements. The problem statements can also be given by the sponsors if any.",
+        "Hackathon where participating teams will be developing applications that are viable solutions for problem statements.",
       image: "./Images/Event/Technical/hackathon.png",
       event_poster: "./Images/Event/subevents/technical/hacknovate@4x.png",
       rulebook: "",
