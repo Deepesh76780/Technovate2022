@@ -14,7 +14,7 @@ export const SubEvent = () => {
     const volunteers = data.volunteer_heads
     let registration_link = "/"
     let event_poster = "./Images/Event/technovate2022.jpg"
-    if(data.event_name !== 'Battle of Dancers'){
+    if(data.event_name !== "Let's Nacho"){
         if(data.registration_link !== ""){
             registration_link = data.registration_link
         }
@@ -41,7 +41,7 @@ export const SubEvent = () => {
                                 {data.event_detail}
                             </div>
                             {
-                                data.event_name === 'Battle of Dancers' ? (
+                                data.event_name === "Let's Nacho" ? (
                                     <div className='flex flex-col  md:flex-row md:space-x-2 py-2 space-y-2 md:space-y-0'>
                                         <a href={data.registration_link[0]} target="_blank"  rel="noreferrer" className='text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
                                         Register Now (Group)

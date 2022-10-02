@@ -4,7 +4,7 @@ import { EventCard } from "./EventCard";
 export const Cultural = () => {
   const cultural = [
     {
-      name: "Battle of Dancers",
+      name: "Let's Nacho",
       details:
         " A Dance competition to show the colors and energy of the youth through dance.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances",
       image: "./Images/Event/Cultural/dance.png",
