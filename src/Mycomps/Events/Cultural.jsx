@@ -35,7 +35,18 @@ export const Cultural = () => {
       volunteer_heads: [],
     },
     {
-      name: "Rangotsav",
+      name: "Rangotsav (In A Flash)",
+      details:
+        " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
+      image: "./Images/Event/Cultural/rangotsav.png",
+      event_poster: "./Images/Event/subevents/cultural/IN_aFlash.png",
+      rulebook: "",
+      registration_link: "https://unstop.com/creative-cultural-event/rangotsav-in-a-flash-technovate-2022-international-institute-of-information-technology-iiit-naya-443729",
+      event_heads: ["Sahil", "Riya D"],
+      volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
+    },
+    {
+      name: "Rangotsav (Canvas Cultural)",
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
       image: "./Images/Event/Cultural/rangotsav.png",
