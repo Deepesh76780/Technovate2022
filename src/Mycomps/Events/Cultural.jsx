@@ -54,7 +54,8 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/rangotsav.png",
       event_poster: "./Images/Event/subevents/cultural/Canvas Carnival.png",
       rulebook: "",
-      registration_link: "",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/rangotsav-canvas-carnival-technovate-2022-international-institute-of-information-technology-iiit-447522",
       event_heads: ["Sahil", "Riya D"],
       volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
