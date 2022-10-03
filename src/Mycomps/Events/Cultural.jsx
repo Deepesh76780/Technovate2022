@@ -30,7 +30,8 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/crown.png",
       event_poster: "./Images/Event/subevents/cultural/The New Vogue-1.png",
       rulebook: "",
-      registration_link: "https://unstop.com/creative-cultural-event/the-new-vogue-technovate-2022-440472?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/the-new-vogue-technovate-2022-440472?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
       event_heads: ["Sanjam Bedi", "Shristi Tiwari"],
       volunteer_heads: [],
     },
@@ -38,10 +39,11 @@ export const Cultural = () => {
       name: "Rangotsav (In A Flash)",
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
-      image: "./Images/Event/Cultural/rangotsav.png",
+      image: "./Images/Event/Cultural/photography.png",
       event_poster: "./Images/Event/subevents/cultural/IN_aFlash.png",
       rulebook: "",
-      registration_link: "https://unstop.com/creative-cultural-event/rangotsav-in-a-flash-technovate-2022-international-institute-of-information-technology-iiit-naya-443729",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/rangotsav-in-a-flash-technovate-2022-international-institute-of-information-technology-iiit-naya-443729",
       event_heads: ["Sahil", "Riya D"],
       volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
@@ -52,7 +54,8 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/rangotsav.png",
       event_poster: "./Images/Event/subevents/cultural/Canvas Carnival.png",
       rulebook: "",
-      registration_link: "",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/rangotsav-canvas-carnival-technovate-2022-international-institute-of-information-technology-iiit-447522",
       event_heads: ["Sahil", "Riya D"],
       volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
@@ -63,7 +66,8 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/raagraatri.png",
       event_poster: "./Images/Event/subevents/cultural/Raag Raatri@4x.png",
       rulebook: "",
-      registration_link: "https://unstop.com/creative-cultural-event/raag-raatri-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-442714?lb=krS2uTq",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/raag-raatri-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-442714?lb=krS2uTq",
       event_heads: ["Shreedhar Tiwari", "Sonali Tudu"],
       volunteer_heads: [
         "Akash Trivedi",
@@ -82,7 +86,8 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/bands.png",
       event_poster: "./Images/Event/subevents/cultural/battle of bands@4x.png",
       rulebook: "",
-      registration_link: "https://unstop.com/creative-cultural-event/battle-of-bands-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/battle-of-bands-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
       event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
       volunteer_heads: ["Nikhil Kumar kurrey", "Chirag Matta", "Ajay Kumar"],
     },
@@ -110,7 +115,8 @@ export const Cultural = () => {
       image: "./Images/Event/Cultural/stage.png",
       event_poster: "./Images/Event/subevents/cultural/Awaaz.png",
       rulebook: "",
-      registration_link: "https://unstop.com/creative-cultural-event/awaaz-technovate-2022-440499",
+      registration_link:
+        "https://unstop.com/creative-cultural-event/awaaz-technovate-2022-440499",
       event_heads: ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
       volunteer_heads: ["Aaditya Kumar", "Vinod chandravanshi"],
     },
