@@ -4,7 +4,7 @@ import { Team } from "../Team/Team";
 import { EventLanding } from "../Events/EventLanding";
 import { Footer } from "../Footer/Footer";
 import { Blogs } from "../Blogs/Blogs";
-
+import { Searched } from "../Events/SubEvents";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Navbar } from "../Navbar";
@@ -12,6 +12,7 @@ import { SubEvent } from "../Events/SubEvent";
 
 export const RoutingPage = () => {
   const location = useLocation();
+  console.log(location);
   useEffect(() => {
     if (window.location.pathname === "/" && window.screen.width > 640) {
       document.body.style.overflowY = "hidden";
@@ -59,10 +60,11 @@ export const RoutingPage = () => {
         }
       />
       <Route
-        path="/eventdetail"
+        path="/eventdetail/:eventname"
         element={
           <>
-            <SubEvent />
+            {location.key !== "default" ? <SubEvent /> : <Searched />}
+            {/* if the user search the url manually then <Searched/> in SubEvents will Trigger */}
             <Footer />
           </>
         }
