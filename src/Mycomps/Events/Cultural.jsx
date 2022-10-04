@@ -9,7 +9,7 @@ export const Cultural = () => {
         " A Dance competition to show the colors and energy of the youth through dance.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances",
       image: "./Images/Event/Cultural/dance.png",
       event_poster:
-        "./Images/Event/subevents/cultural/battle of dancers@4x.png",
+        "../Images/Event/subevents/cultural/battle of dancers@4x.png",
       rulebook: "",
       registration_link: [
         "https://unstop.com/creative-cultural-event/lets-nacho-group-technovate-2022-international-institute-of-information-technology-iiit-naya-rai-440203",
@@ -28,7 +28,7 @@ export const Cultural = () => {
       details:
         'Brace yourselves for a wide variety of dressing styles, with sassy attires, a touch of makeup, and a body filled with confidence and enthusiasm, and bring out the best of fashion sense that you have. Let us bring together all the fashion enthusiasts and launch "The New Vogue" ',
       image: "./Images/Event/Cultural/crown.png",
-      event_poster: "./Images/Event/subevents/cultural/The New Vogue-1.png",
+      event_poster: "../Images/Event/subevents/cultural/The New Vogue-1.png",
       rulebook: "",
       registration_link:
         "https://unstop.com/creative-cultural-event/the-new-vogue-technovate-2022-440472?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
@@ -40,7 +40,7 @@ export const Cultural = () => {
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
       image: "./Images/Event/Cultural/photography.png",
-      event_poster: "./Images/Event/subevents/cultural/IN_aFlash.png",
+      event_poster: "../Images/Event/subevents/cultural/IN_aFlash.png",
       rulebook: "",
       registration_link:
         "https://unstop.com/creative-cultural-event/rangotsav-in-a-flash-technovate-2022-international-institute-of-information-technology-iiit-naya-443729",
@@ -52,7 +52,7 @@ export const Cultural = () => {
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
       image: "./Images/Event/Cultural/rangotsav.png",
-      event_poster: "./Images/Event/subevents/cultural/Canvas Carnival.png",
+      event_poster: "../Images/Event/subevents/cultural/Canvas Carnival.png",
       rulebook: "",
       registration_link:
         "https://unstop.com/creative-cultural-event/rangotsav-canvas-carnival-technovate-2022-international-institute-of-information-technology-iiit-447522",
@@ -64,7 +64,7 @@ export const Cultural = () => {
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion, in their mother tongue. Musicality and command over vocals and instruments remains the biggest criteria",
       image: "./Images/Event/Cultural/raagraatri.png",
-      event_poster: "./Images/Event/subevents/cultural/Raag Raatri@4x.png",
+      event_poster: "../Images/Event/subevents/cultural/Raag Raatri@4x.png",
       rulebook: "",
       registration_link:
         "https://unstop.com/creative-cultural-event/raag-raatri-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-442714?lb=krS2uTq",
@@ -84,7 +84,7 @@ export const Cultural = () => {
       details:
         "An electrifying musical competition to show the creativity and energy of the masses expressed via their musical passion.Bring along any theme, any song but the goal remains the same, you have to capture the crowd with your performances, and impress the judges. ",
       image: "./Images/Event/Cultural/bands.png",
-      event_poster: "./Images/Event/subevents/cultural/battle of bands@4x.png",
+      event_poster: "../Images/Event/subevents/cultural/battle of bands@4x.png",
       rulebook: "",
       registration_link:
         "https://unstop.com/creative-cultural-event/battle-of-bands-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
@@ -96,7 +96,7 @@ export const Cultural = () => {
       details:
         " An Esports tournament by Technovate IIIT-NR consisting of Mobile and PC games open for all Esports players across the country. The tournament consists of  3 games namely:- BGMI, Valorant, CS:GO. Players can participate in the event and win a prize pool worth thousands in each game. ",
       image: "./Images/Event/Cultural/gamers.png",
-      event_poster: "./Images/Event/subevents/cultural/GC_valo@4x.png",
+      event_poster: "../Images/Event/subevents/cultural/GC_valo@4x.png",
       rulebook: "",
       registration_link: "",
       event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
@@ -113,7 +113,7 @@ export const Cultural = () => {
       details:
         "Awaaz is a form of street play to create awareness or strengthen social emotions. The less seen, the more heard. The eye is the enemy of the ear in real drama.",
       image: "./Images/Event/Cultural/stage.png",
-      event_poster: "./Images/Event/subevents/cultural/Awaaz.png",
+      event_poster: "../Images/Event/subevents/cultural/Awaaz.png",
       rulebook: "",
       registration_link:
         "https://unstop.com/creative-cultural-event/awaaz-technovate-2022-440499",
