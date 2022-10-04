@@ -46,7 +46,7 @@ const Search = [
     volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
   },
   {
-    name: "Rangotsav (Canvas Cultural)",
+    name: "Rangotsav (Canvas Carnival)",
     details:
       " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
     image: "./Images/Event/Cultural/rangotsav.png",
