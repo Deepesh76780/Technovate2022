@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Navbar } from "../Navbar";
 import { Cultural } from "./Cultural";
 import { Informal } from "./Informal";
-import { MockEvent } from "./MockEvent";
+// import { MockEvent } from "./MockEvent";
 import { Technical } from "./Technical";
 
-export const EventLanding = () => {
+export const EventLanding = ({ culturalData, technicalData, informalData }) => {
   const [ShowItems, setShowItems] = useState(1);
 
   return (
@@ -80,11 +80,11 @@ export const EventLanding = () => {
         </div>
         <div className="my-5">
           {ShowItems === 0 ? (
-            <Cultural />
+            <Cultural culturalData={culturalData} />
           ) : ShowItems === 1 ? (
-            <Technical />
+            <Technical technicalData={technicalData} />
           ) : (
-            <Informal />
+            <Informal informalData={informalData} />
           )}
         </div>
       </div>

@@ -7,10 +7,10 @@ import { Blogs } from "../Blogs/Blogs";
 import { Searched } from "../Events/SubEvents";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { Navbar } from "../Navbar";
+// import { Navbar } from "../Navbar";
 import { SubEvent } from "../Events/SubEvent";
 
-export const RoutingPage = () => {
+export const RoutingPage = ({ culturalData, technicalData, informalData }) => {
   const location = useLocation();
   console.log(location);
   useEffect(() => {
@@ -45,7 +45,11 @@ export const RoutingPage = () => {
         path="/event"
         element={
           <>
-            <EventLanding />
+            <EventLanding
+              culturalData={culturalData}
+              technicalData={technicalData}
+              informalData={informalData}
+            />
             <Footer />
           </>
         }
@@ -63,7 +67,15 @@ export const RoutingPage = () => {
         path="/eventdetail/:eventname"
         element={
           <>
-            {location.key !== "default" ? <SubEvent /> : <Searched />}
+            {location.key !== "default" ? (
+              <SubEvent />
+            ) : (
+              <Searched
+                culturalData={culturalData}
+                technicalData={technicalData}
+                informalData={informalData}
+              />
+            )}
             {/* if the user search the url manually then <Searched/> in SubEvents will Trigger */}
             <Footer />
           </>
