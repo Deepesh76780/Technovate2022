@@ -48,7 +48,7 @@ export const Cultural = () => {
       volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
     {
-      name: "Rangotsav (Canvas Carnival)",
+      name: "Canvas Carnival",
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
       image: "./Images/Event/Cultural/rangotsav.png",
