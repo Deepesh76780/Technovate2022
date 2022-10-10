@@ -109,7 +109,7 @@ export const Technical = () => {
       event_poster:
         "../Images/Event/subevents/technical/unlockthetechnoverse@4x.png",
       rulebook: "",
-      registration_link: "",
+      registration_link: "https://unstop.com/competition/unlock-the-technoverse-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-448812",
       event_heads: ["Aditya Goel", "Aman Sahu"],
       volunteer_heads: ["Sanskar Singh", "Priykrit Varma"],
     },
