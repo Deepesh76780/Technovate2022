@@ -48,7 +48,7 @@ export const Cultural = () => {
       volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
     },
     {
-      name: "Rangotsav (Canvas Carnival)",
+      name: "Canvas Carnival",
       details:
         " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
       image: "./Images/Event/Cultural/rangotsav.png",
@@ -97,8 +97,18 @@ export const Cultural = () => {
         " An Esports tournament by Technovate IIIT-NR consisting of Mobile and PC games open for all Esports players across the country. The tournament consists of  3 games namely:- BGMI, Valorant, CS:GO. Players can participate in the event and win a prize pool worth thousands in each game. ",
       image: "./Images/Event/Cultural/gamers.png",
       event_poster: "../Images/Event/subevents/cultural/GC_valo@4x.png",
+      event_posters: [
+        "../Images/Event/subevents/cultural/GC_valo@4x.png",
+        "../Images/Event/subevents/cultural/GC_CSGO@4x.png",
+        "../Images/Event/subevents/cultural/GC_Bgmi@4x.png",
+    ],
       rulebook: "",
-      registration_link: "",
+      registration_link: "https://unstop.com/creative-cultural-event/gamers-crusade-valorant-technovate-2022-international-institute-of-information-technology-iiit-n-449017",
+      registration_links: [
+        "https://unstop.com/creative-cultural-event/gamers-crusade-valorant-technovate-2022-international-institute-of-information-technology-iiit-n-449017",
+        "https://unstop.com/creative-cultural-event/gamers-crusade-cs-go-technovate-2022-international-institute-of-information-technology-iiit-naya-449025",
+        "https://unstop.com/competition/gamers-crusade-bgmi-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-448933"
+      ],
       event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
       volunteer_heads: [
         "Akshay Pandey",
@@ -134,6 +144,8 @@ export const Cultural = () => {
             image={item.image}
             event_poster={item.event_poster}
             registration_link={item.registration_link}
+            event_posters = {item.event_posters}
+            registration_links = {item.registration_links}
           />
         );
       })}
