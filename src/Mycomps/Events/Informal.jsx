@@ -34,7 +34,7 @@ export const Informal = () => {
       ],
     },
     {
-      name: "Gamer's Crusade",
+      name: "Gamer's  Crusade",
       details:
         "It is an online gaming event in which teams will participate in different games and compete against each other",
       image: "./Images/Event/Informal/team.png",
