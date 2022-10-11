@@ -46,7 +46,7 @@ const Search = [
     volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
   },
   {
-    name: "Rangotsav (Canvas Carnival)",
+    name: "Canvas Carnival",
     details:
       " Rangotsav is an open call to all artists out there, to go beyond the ordinary and present their unique perspective to the world out there. ",
     image: "./Images/Event/Cultural/rangotsav.png",
@@ -95,8 +95,18 @@ const Search = [
       " An Esports tournament by Technovate IIIT-NR consisting of Mobile and PC games open for all Esports players across the country. The tournament consists of  3 games namely:- BGMI, Valorant, CS:GO. Players can participate in the event and win a prize pool worth thousands in each game. ",
     image: "./Images/Event/Cultural/gamers.png",
     event_poster: "../Images/Event/subevents/cultural/GC_valo@4x.png",
+    event_posters: [
+      "../Images/Event/subevents/cultural/GC_valo@4x.png",
+      "../Images/Event/subevents/cultural/GC_CSGO@4x.png",
+      "../Images/Event/subevents/cultural/GC_Bgmi@4x.png",
+    ],
     rulebook: "",
     registration_link: "",
+    registration_links: [
+      "https://unstop.com/creative-cultural-event/gamers-crusade-valorant-technovate-2022-international-institute-of-information-technology-iiit-n-449017",
+      "https://unstop.com/creative-cultural-event/gamers-crusade-cs-go-technovate-2022-international-institute-of-information-technology-iiit-naya-449025",
+      "https://unstop.com/competition/gamers-crusade-bgmi-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-448933",
+    ],
     event_heads: ["Parth Bhandakkar", "Shresht Mishra"],
     volunteer_heads: [
       "Akshay Pandey",
@@ -220,7 +230,8 @@ const Search = [
     event_poster:
       "../Images/Event/subevents/technical/unlockthetechnoverse@4x.png",
     rulebook: "",
-    registration_link: "",
+    registration_link:
+      "https://unstop.com/competition/unlock-the-technoverse-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-448812",
     event_heads: ["Aditya Goel", "Aman Sahu"],
     volunteer_heads: ["Sanskar Singh", "Priykrit Varma"],
   },
@@ -292,7 +303,7 @@ const Search = [
     ],
   },
   {
-    name: "Gamer's Crusade",
+    name: "Gamer's  Crusade",
     details:
       "It is an online gaming event in which teams will participate in different games and compete against each other",
     image: "./Images/Event/Informal/team.png",
@@ -405,51 +416,123 @@ export function Searched() {
           <div className="text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 border-[#E72D2D] text-[#E72D2D]">
             {result.name}
           </div>
-          <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between w-full items-center space-x-2 lg:space-x-10">
-            <div className="drop-shadow-xl shadow-white">
-              <img
-                src={event_poster}
-                className="h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl"
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col justify-center items-center space-y-2 just">
-              <div className="bg-black bg-opacity-50 text-white w-[90%] sm:w-[450px] lg:w-[600px] text-xl rounded-xl p-4">
-                {result.details}
+          {result.name !== "Gamer's Crusade" ? (
+            <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between w-full items-center space-x-2 lg:space-x-10">
+              <div className="drop-shadow-xl shadow-white">
+                <img
+                  src={event_poster}
+                  className="h-[300px] lg:h-[400px] w-[300px] lg:w-[400px] aspect-auto rounded-xl"
+                  alt=""
+                />
               </div>
-              {result.event_name === "Let's Nacho" ? (
-                <div className="flex flex-col  md:flex-row md:space-x-2 py-2 space-y-2 md:space-y-0">
-                  <a
-                    href={result.registration_link[0]}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
-                  >
-                    Register Now (Group)
-                  </a>
-                  <a
-                    href={result.registration_link[1]}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
-                  >
-                    Register Now (Solo)
-                  </a>
+              <div className="flex flex-col justify-center items-center space-y-2 just">
+                <div className="bg-black bg-opacity-50 text-white w-[90%] sm:w-[450px] lg:w-[600px] text-xl rounded-xl p-4">
+                  {result.details}
                 </div>
-              ) : (
-                <div className="py-2">
-                  <a
-                    href={registration_link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
-                  >
-                    Register Now
-                  </a>
-                </div>
-              )}
+                {result.event_name === "Let's Nacho" ? (
+                  <div className="flex flex-col  md:flex-row md:space-x-2 py-2 space-y-2 md:space-y-0">
+                    <a
+                      href={result.registration_link[0]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                    >
+                      Register Now (Group)
+                    </a>
+                    <a
+                      href={result.registration_link[1]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                    >
+                      Register Now (Solo)
+                    </a>
+                  </div>
+                ) : (
+                  <div className="py-2">
+                    <a
+                      href={registration_link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="flex flex-col justify-center items-center space-y-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-content-center place-items-center gap-y-4 md:gap-y-0 gap-x-10">
+                <div className="flex flex-col justify-center items-center">
+                  <div className="drop-shadow-xl shadow-white">
+                    <img
+                      src={result.event_posters[0]}
+                      className="h-[350px]  w-[350px] aspect-auto rounded-xl"
+                      alt=""
+                    />
+                  </div>
+                  <br></br>
+                  <div className="">
+                    <a
+                      href={result.registration_links[0]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center items-center">
+                  <div className="drop-shadow-xl shadow-white">
+                    <img
+                      src={result.event_posters[1]}
+                      className="h-[350px]  w-[350px] aspect-auto rounded-xl"
+                      alt=""
+                    />
+                  </div>
+                  <br></br>
+                  <div className="">
+                    <a
+                      href={result.registration_links[1]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center items-center">
+                  <div className="drop-shadow-xl shadow-white">
+                    <img
+                      src={result.event_posters[2]}
+                      className="h-[350px]  w-[350px] aspect-auto rounded-xl"
+                      alt=""
+                    />
+                  </div>
+                  <br></br>
+                  <div className="">
+                    <a
+                      href={result.registration_links[2]}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                    >
+                      Register Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="bg-black bg-opacity-50 text-white w-[90%] sm:w-[450px] lg:w-[600px] text-xl rounded-xl p-4">
+                  {result.details}
+                </div>
+              </div>
+            </div>
+          )}
           <div className="flex flex-col mx-4 space-y-4 justify-start items-start w-full">
             <div className="flex flex-col space-y-2">
               <div className="text-2xl">Event Heads</div>
