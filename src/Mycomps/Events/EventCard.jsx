@@ -9,6 +9,8 @@ export const EventCard = ({
   image,
   event_poster,
   registration_link,
+  event_posters,
+  registration_links
 }) => {
   const navigate = useNavigate();
 
@@ -26,6 +28,8 @@ export const EventCard = ({
               event_heads: event_heads,
               volunteer_heads: volunteer_heads,
               registration_link: registration_link,
+              event_posters: event_posters,
+              registration_links: registration_links
             },
           },
         });

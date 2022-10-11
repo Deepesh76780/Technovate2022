@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import { RoutingPage } from "./Mycomps/Router/RoutingPage";
 
-function App({ culturalData, technicalData, informalData }) {
+function App() {
   // document.addEventListener('wheel',()=>{
   //   if(window.location.pathname === '/'){
   //       document.body.style.overflowY = 'hidden';
@@ -15,11 +15,7 @@ function App({ culturalData, technicalData, informalData }) {
   return (
     <div>
       <BrowserRouter>
-        <RoutingPage
-          culturalData={culturalData}
-          technicalData={technicalData}
-          informalData={informalData}
-        />
+        <RoutingPage />
         {/* <Routes>
       <Route path="/" element={<><LandingPage /></>} />
       <Route path="/team" element={<><Team /><Footer /></>} />
