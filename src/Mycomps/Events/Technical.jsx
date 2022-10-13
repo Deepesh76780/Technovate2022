@@ -17,7 +17,7 @@ export const Technical = () => {
     },
     {
       name: "Its Data Time",
-      details: "Kaggle competition followed by solution presentation",
+      details: "Technovate brings you It's Data Time a seven day long ML challenge which is going to organized virtually and technically sponsored by MachineHack a product of Analytics India Magazine with prizes worth 50k+.",
       image: "./Images/Event/Technical/itsdatatime.png",
       event_poster: "../Images/Event/subevents/technical/itsdatatime@4x.png",
       rulebook: "",
