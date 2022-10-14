@@ -60,7 +60,7 @@ export const RoutingPage = () => {
           </>
         }
       />
-      <Route
+      {/* <Route
         path="/sponsors"
         element={
           <>
@@ -68,7 +68,7 @@ export const RoutingPage = () => {
             <Footer />
           </>
         }
-      />
+      /> */}
       <Route
         path="/eventdetail/:eventname"
         element={

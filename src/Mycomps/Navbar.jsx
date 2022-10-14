@@ -35,7 +35,7 @@ export const Navbar = () => {
             SCHEDULE
           </div>
           <Link className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
-            to="/sponsors"
+            to="/"
           >
             SPONSORS
           </Link>
