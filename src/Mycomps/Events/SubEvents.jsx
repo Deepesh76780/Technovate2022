@@ -142,7 +142,8 @@ const Search = [
   },
   {
     name: "Its Data Time",
-    details: "Kaggle competition followed by solution presentation",
+    details:
+      "Technovate brings you It's Data Time a seven day long ML challenge which is going to organized virtually and technically sponsored by MachineHack a product of Analytics India Magazine with prizes worth 50k+.",
     image: "./Images/Event/Technical/itsdatatime.png",
     event_poster: "../Images/Event/subevents/technical/itsdatatime@4x.png",
     rulebook: "",
@@ -238,7 +239,7 @@ const Search = [
   {
     name: "Conquer The Space",
     details:
-      "24 individuals will qualify for Prelims. 12 Teams will be formed by chit-draw. In the end, three teams will be winning positions through various levels.",
+      'Get ready to battle it out in an Intergalactic Space Rumble, this intense space battle is not for the weak-hearted, across the milky way and into the black holes, exploring the never-ending space but do you have the knowledge to not get lost in this vast ocean of heavenly bodies? Technovate 2022 presents, "CONQUER THE SPACE: An Intergalactic Space Rumble"- A space-themed quiz.',
     image: "./Images/Event/Technical/conquerspace.png",
     event_poster:
       "../Images/Event/subevents/technical/conquer the space@4x.png",
