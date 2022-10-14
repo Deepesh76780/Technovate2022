@@ -9,6 +9,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Navbar } from "../Navbar";
 import { SubEvent } from "../Events/SubEvent";
+import { Sponsors } from "../Sponsors/Sponsors";
 
 export const RoutingPage = () => {
   const location = useLocation();
@@ -55,6 +56,15 @@ export const RoutingPage = () => {
         element={
           <>
             <Blogs />
+            <Footer />
+          </>
+        }
+      />
+      <Route
+        path="/sponsors"
+        element={
+          <>
+            <Sponsors />
             <Footer />
           </>
         }

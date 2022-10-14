@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Navbar'
 import { TeamCard } from './TeamCard'
 import { TeamCard2 } from './TeamCard2'
-
+    
 export const Team = () => {
 
   const team = [
