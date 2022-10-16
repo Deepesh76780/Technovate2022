@@ -11,6 +11,23 @@ export const LandingPage = (props) => {
     const [showArrow, setShowArrow] = useState(false);
     const [ShowBottom, setShowBottom] = useState(false);
     const [BottomLoaded, setBottomLoaded] = useState(false);
+    const [CD, setCD] = useState("");
+
+    var countDownDate = new Date("Nov 4, 2022 00:00:00").getTime();
+    var x = setInterval(function() {
+
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        setCD (days + "d " + hours + "h "+ minutes + "m " + seconds + "s ")
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
 
 
     setTimeout(() => {
@@ -19,8 +36,6 @@ export const LandingPage = (props) => {
             setShowArrow(true);
         }, 3000);
     }, 400);
-
-
 
 
 
@@ -128,6 +143,10 @@ export const LandingPage = (props) => {
                             </div>
                             <div className='text-xl md:text-3xl lg:text-5xl'>
                                 4th - 6th Nov 2022
+                            </div>
+                            <div className='text-xl md:text-3xl lg:text-5xl pt-5'>
+                                Time left <br></br>
+                                {CD}
                             </div>
                             <div className='h-[40px]'>
 
