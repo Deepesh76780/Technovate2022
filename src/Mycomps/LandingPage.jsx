@@ -144,8 +144,8 @@ export const LandingPage = (props) => {
                             <div className='text-xl md:text-3xl lg:text-5xl'>
                                 4th - 6th Nov 2022
                             </div>
-                            <div className='text-xl md:text-3xl lg:text-5xl pt-5'>
-                                Time left <br></br>
+                            <div className='text-xl md:text-3xl lg:text-5xl pt-10 text-center'>
+                            Take off at T minus  <br></br>
                                 {CD}
                             </div>
                             <div className='h-[40px]'>
