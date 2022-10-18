@@ -14,7 +14,7 @@ export const LandingPage = (props) => {
     const [CD, setCD] = useState("");
 
     var countDownDate = new Date("Nov 4, 2022 00:00:00").getTime();
-    var x = setInterval(function() {
+    var x = setInterval(function () {
 
         var now = new Date().getTime();
         var distance = countDownDate - now;
@@ -22,12 +22,12 @@ export const LandingPage = (props) => {
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        setCD (days + "d " + hours + "h "+ minutes + "m " + seconds + "s ")
+        setCD(days + "d " + hours + "h " + minutes + "m " + seconds + "s ")
         if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
         }
-      }, 1000);
+    }, 1000);
 
 
     setTimeout(() => {
@@ -46,7 +46,7 @@ export const LandingPage = (props) => {
 
 
     function ScrollToggle(e) {
-        if(window.location.pathname === '/'){
+        if (window.location.pathname === '/') {
             if (ShowBottom) {
                 scroll.scrollToTop();
                 spaceship.style.transform = `rotate(180deg) translate(0,30vh)`
@@ -70,7 +70,7 @@ export const LandingPage = (props) => {
     let delayer = false
 
     document.addEventListener('wheel', (e) => {
-        if(window.location.pathname === '/'){
+        if (window.location.pathname === '/') {
             if (delayer !== true) {
                 if (e.deltaY > 0 && getScroll() === 0) {
                     delayer = true
@@ -91,7 +91,7 @@ export const LandingPage = (props) => {
     })
 
     document.addEventListener('scroll', () => {
-        if(window.location.pathname === '/'){
+        if (window.location.pathname === '/') {
             if (earth != null) {
                 earth.style.transform = `translate(72%,${-(getScroll() * -30)}%)`
             }
@@ -138,24 +138,24 @@ export const LandingPage = (props) => {
                             <div className='text-2xl md:text-5xl lg:text-7xl '>
                                 TECHNOVATE
                             </div>
-                            <div className='text-xl md:text-3xl lg:text-5xl'>
-                            Connect, Innovate,<br></br> Inspire
+                            <div className='text-lg md:text-2xl lg:text-5xl'>
+                                Connect, Innovate, Inspire
                             </div>
-                            <div className='text-xl md:text-3xl lg:text-5xl'>
+                            <div className='text-base md:text-xl lg:text-4xl'>
                                 4th - 6th Nov 2022
                             </div>
-                            <div className='text-xl md:text-3xl lg:text-5xl pt-10 text-center'>
-                            Take off at T minus  <br></br>
-                                {CD}
-                            </div>
-                            <div className='h-[40px]'>
+                            <div className='h-[20px]'>
 
                             </div>
-                            <a  rel="noreferrer" href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' target='_blank' className='flex justify-center items-center w-[7em] h-[2.6em] uppercase text-3xl  spaced tracking-widest rounded-md border cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
+                            <a rel="noreferrer" href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' target='_blank' className='flex justify-center items-center w-[140px] h-[60px] uppercase text-2xl  spaced tracking-widest rounded-md border cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
                                 REGISTER
                             </a>
-
-
+                            <div className='text-xl md:text-2xl lg:text-4xl pt-10 text-center'>
+                                Take off at <span className=' text-[#E72D2D] '>
+                                    T minus
+                                </span> <br></br>
+                                {CD}
+                            </div>
                         </div>
 
                     </div>
@@ -164,57 +164,57 @@ export const LandingPage = (props) => {
 
                 <div>
 
-                <div className='hidden sm:block w-screen h-screen'>
-                    <div className='h-[4vh]'></div>
+                    <div className='hidden sm:block w-screen h-screen'>
+                        <div className='h-[4vh]'></div>
 
-                    <div className='w-screen flex flex-col'>
-                        <div className='text-white text-[3.4em] spaced ml-[17.5vw]'>
-                            About Us
-                        </div>
-                        <div className='h-5'></div>
+                        <div className='w-screen flex flex-col'>
+                            <div className='text-white text-[3.4em] spaced ml-[17.5vw]'>
+                                About Us
+                            </div>
+                            <div className='h-5'></div>
 
-                        <div className='flex flex-row items-start'>
-                            <div id="spaceShip" className='ml-[14vw] flex flex-col justify-center items-center transition-all duration-1000 -translate-y-[30vh] rotate-180'>
+                            <div className='flex flex-row items-start'>
+                                <div id="spaceShip" className='ml-[14vw] flex flex-col justify-center items-center transition-all duration-1000 -translate-y-[30vh] rotate-180'>
 
-                                <div className='text-white text-[10px] font-bold'>
-                                    <span className='text-[#E72D2D]'>CABIN MICS</span>: RECORDING
+                                    <div className='text-white text-[10px] font-bold'>
+                                        <span className='text-[#E72D2D]'>CABIN MICS</span>: RECORDING
+                                    </div>
+
+                                    <img
+                                        className='h-[40vh] aspect-auto'
+                                        src="Images/SpaceShipLandingPage.svg" alt="SpaceShip" />
+
                                 </div>
 
-                                <img
-                                    className='h-[40vh] aspect-auto'
-                                    src="Images/SpaceShipLandingPage.svg" alt="SpaceShip" />
+                                <div className='flex flex-col ml-[5vw]'>
+
+                                    <div className={`text-white text-sm w-[60vw] h-auto  bg-black bg-opacity-50 p-3 transition-all duration-700 ${BottomLoaded ? "translate-x-0 translate-y-0" : "translate-x-[100vw] translate-y-10"}`}>
+                                        Technovate is the annual techno-cultural fest of IIIT-NR which includes but is not limited to Coding competitions, Hacking Competitions, Battle of Bands, keynote sessions by renowned speakers, etcetera; to be held in the month of November.  In the span of 3 days, Technovate is designed to provide a powerful problem-solving environment to help build new ideas as well as a stage to showcase one's cultural prowess which range from stand-ups to renounced singers and EDM. In the last edition, Technovate received 5000+ registrations and this time, with the scale and the time-gap being much larger, we are expecting over 7000+ registrations. The main idea behind Technovate is to provide students with a dynamic environment to showcase their skills in any field they desire.
+                                    </div>
+
+                                    <div className={`transition-all duration-1000 ${BottomLoaded ? "translate-x-0 translate-y-0 mb-2" : "translate-x-[100vw] translate-y-10"}`}>
+                                        <video className='h-[250px] w-[450px] ml-5 mt-5' controls poster="./Images/Blog/logo.png" >
+                                            <source src="./Images/teaser.mp4" type="video/mp4" />
+                                        </video>
+                                    </div>
+
+                                </div>
+
+
+
 
                             </div>
 
-                            <div className='flex flex-col ml-[5vw]'>
-
-                                <div className={`text-white text-sm w-[60vw] h-auto  bg-black bg-opacity-50 p-3 transition-all duration-700 ${BottomLoaded ? "translate-x-0 translate-y-0" : "translate-x-[100vw] translate-y-10"}`}>
-                                Technovate is the annual techno-cultural fest of IIIT-NR which includes but is not limited to Coding competitions, Hacking Competitions, Battle of Bands, keynote sessions by renowned speakers, etcetera; to be held in the month of November.  In the span of 3 days, Technovate is designed to provide a powerful problem-solving environment to help build new ideas as well as a stage to showcase one's cultural prowess which range from stand-ups to renounced singers and EDM. In the last edition, Technovate received 5000+ registrations and this time, with the scale and the time-gap being much larger, we are expecting over 7000+ registrations. The main idea behind Technovate is to provide students with a dynamic environment to showcase their skills in any field they desire.
-                                </div>
-
-                                <div className={`transition-all duration-1000 ${BottomLoaded ? "translate-x-0 translate-y-0 mb-2" : "translate-x-[100vw] translate-y-10"}`}>
-                                    <video className='h-[250px] w-[450px] ml-5 mt-5' controls poster="./Images/Blog/logo.png" >
-                                        <source src="./Images/teaser.mp4" type="video/mp4" />
-                                    </video>
-                                </div>
-
-                            </div>
-
-
-
-
                         </div>
-
                     </div>
-                </div>
 
 
                     <div className='translate-y-[-100%]'>
 
-                            <LandingPageFooter />
+                        <LandingPageFooter />
                     </div>
-                        
-                
+
+
                 </div>
 
 
@@ -230,7 +230,7 @@ export const LandingPage = (props) => {
                             <div className='text-4xl'>TECHNOVATE</div>
                             <div className='text-2xl'>Connect, Innovate, Inspire</div>
                             <div className='text-2xl'>4th - 6th Nov 2022</div>
-                            <a href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915'  rel="noreferrer" target='_blank' className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</a>
+                            <a href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' rel="noreferrer" target='_blank' className='bg-transparent text-3xl border-white rounded-xl border px-3 py-4'>REGISTER</a>
                         </div>
                         <div className='mt-4'>
                             <img id='EarthGIF' alt="" src="Images/Earth.gif" className='h-60 w-60 rounded-full mx-auto' />
@@ -238,7 +238,7 @@ export const LandingPage = (props) => {
                         <div className='mt-3 flex flex-col px-3'>
                             <div className='text-3xl spaced'>About Us</div>
                             <div className='mt-2 bg-black bg-opacity-50 p-4'>
-                            Technovate is the annual techno-cultural fest of IIIT-NR which includes but is not limited to Coding competitions, Hacking Competitions, Battle of Bands, keynote sessions by renowned speakers, etcetera; to be held in the month of November.  In the span of 3 days, Technovate is designed to provide a powerful problem-solving environment to help build new ideas as well as a stage to showcase one's cultural prowess which range from stand-ups to renounced singers and EDM. In the last edition, Technovate received 5000+ registrations and this time, with the scale and the time-gap being much larger, we are expecting over 7000+ registrations. The main idea behind Technovate is to provide students with a dynamic environment to showcase their skills in any field they desire.
+                                Technovate is the annual techno-cultural fest of IIIT-NR which includes but is not limited to Coding competitions, Hacking Competitions, Battle of Bands, keynote sessions by renowned speakers, etcetera; to be held in the month of November.  In the span of 3 days, Technovate is designed to provide a powerful problem-solving environment to help build new ideas as well as a stage to showcase one's cultural prowess which range from stand-ups to renounced singers and EDM. In the last edition, Technovate received 5000+ registrations and this time, with the scale and the time-gap being much larger, we are expecting over 7000+ registrations. The main idea behind Technovate is to provide students with a dynamic environment to showcase their skills in any field they desire.
                             </div>
                             <div>
                                 <div className='text-xl tracking-wide text-center spaced'>Technovate 2022 Teaser</div>
