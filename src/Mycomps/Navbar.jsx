@@ -52,7 +52,7 @@ export const Navbar = () => {
             BLOGS
           </Link>
         </div>
-        <a
+        {/* <a
           className="hidden lg:block absolute right-12"
           href="https://unstop.com/competition/campus-ambassador-program-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-437633"
           target="_blank"
@@ -61,7 +61,7 @@ export const Navbar = () => {
           <div className="glow-on-hover px-2 text-center text-xs flex justify-center items-center">
             Campus Ambassdor Program
           </div>
-        </a>
+        </a> */}
       </div>
       <div className="sm:hidden flex flex-row justify-between items-center mx-2">
         <Link to="/" className="mt-2">
