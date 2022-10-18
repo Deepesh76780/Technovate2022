@@ -75,7 +75,7 @@ export const SubEvent = () => {
                         href={registration_link}
                         target="_blank"
                         rel="noreferrer"
-                        className="text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300"
+                        className={`${event_poster === '../Images/Event/Informal/event.png'?'hidden':'block'} text-center uppercase text-lg spaced tracking-widest rounded-xl border px-4 py-3 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300`}
                       >
                         Register Now
                       </a>
