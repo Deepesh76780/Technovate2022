@@ -150,7 +150,7 @@ export const LandingPage = (props) => {
                             <a rel="noreferrer" href='https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915' target='_blank' className='flex justify-center items-center w-[140px] h-[60px] uppercase text-2xl  spaced tracking-widest rounded-md border cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300'>
                                 REGISTER
                             </a>
-                            <div className='text-xl md:text-2xl lg:text-4xl pt-10 text-center'>
+                            <div className='text-xl md:text-2xl lg:text-4xl pt-10'>
                                 Take off at <span className=' text-[#E72D2D] '>
                                     T minus
                                 </span> <br></br>
