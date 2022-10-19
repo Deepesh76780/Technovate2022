@@ -17,7 +17,8 @@ export const Technical = () => {
     },
     {
       name: "Its Data Time",
-      details: "Technovate brings you It's Data Time a seven day long ML challenge which is going to organized virtually and technically sponsored by MachineHack a product of Analytics India Magazine with prizes worth 50k+.",
+      details:
+        "Technovate brings you It's Data Time a seven day long ML challenge which is going to organized virtually and technically sponsored by MachineHack a product of Analytics India Magazine with prizes worth 50k+.",
       image: "./Images/Event/Technical/itsdatatime.png",
       event_poster: "../Images/Event/subevents/technical/itsdatatime@4x.png",
       rulebook: "",
@@ -109,7 +110,8 @@ export const Technical = () => {
       event_poster:
         "../Images/Event/subevents/technical/unlockthetechnoverse@4x.png",
       rulebook: "",
-      registration_link: "https://unstop.com/competition/unlock-the-technoverse-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-448812",
+      registration_link:
+        "https://unstop.com/competition/unlock-the-technoverse-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-448812",
       event_heads: ["Aditya Goel", "Aman Sahu"],
       volunteer_heads: ["Sanskar Singh", "Priykrit Varma"],
     },
