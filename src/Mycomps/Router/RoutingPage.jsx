@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import { Navbar } from "../Navbar";
 import { SubEvent } from "../Events/SubEvent";
 import { Sponsors } from "../Sponsors/Sponsors";
+import { Schedule_Landing } from "../Schedule/Schedule_Landing";
 
 export const RoutingPage = () => {
   const location = useLocation();
@@ -79,6 +80,7 @@ export const RoutingPage = () => {
           </>
         }
       />
+      <Route path='/schedule' element={<Schedule_Landing/>}/>
       {/* <Route path="/nav" element={<div className='h-screen pt-10'  style={{ backgroundImage: "url(./Images/BackgroundSpace.jpeg)" }}><Navbar /></div>} /> */}
     </Routes>
   );

@@ -82,3 +82,31 @@ body{
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+
+
+.schedulebutton {
+  display: block;
+
+  background: linear-gradient(to right, #9F0000 50%, #00000003 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-in-out;
+}
+
+.schedulebutton:hover {
+  background-position: left bottom;
+}
+
+.scheduletext {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px; 
+  color: black;
+  transition: all .6s ease-out;
+  display: block;
+}
+
+.scheduletext:hover {
+  color: white;  
+}
