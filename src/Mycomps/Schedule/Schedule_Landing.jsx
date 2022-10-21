@@ -167,12 +167,12 @@ export const Schedule_Landing = () => {
                 </div>
 
                 {/* Main Schedule Landing */}
-                <div className='w-full grid grid-cols-5 place-content-center items-center gap-x-1   pt-20 pb-6 pl-14'>
-                    <div className='text-2xl'>
+                <div className='w-full flex flex-col md:grid md:grid-cols-3 lg:grid-cols-5 justify-center md:place-content-center items-center gap-x-1 gap-y-4   pt-20 pb-6 px-12 xl:pl-14'>
+                    <div className='text-2xl hidden lg:block'>
                         Event Kick-off
                     </div>
                     <div
-                        className={`w-[210px] text-center uppercase text-3xl spaced tracking-normal rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${ShowItems === 0
+                        className={`w-fit xl:w-[210px] text-center uppercase text-3xl spaced tracking-normal rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${ShowItems === 0
                             ? "border border-[#E72D2D] text-[#E72D2D]"
                             : "border border-[#F5F5F5]"
                             }`}
@@ -182,7 +182,7 @@ export const Schedule_Landing = () => {
                         4<sup>th</sup> November
                     </div>
                     <div
-                        className={`w-[210px] text-center uppercase text-3xl spaced tracking-normal rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${ShowItems === 1
+                        className={`w-fit xl:w-[210px] text-center uppercase text-3xl spaced tracking-normal rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${ShowItems === 1
                             ? "border border-[#E72D2D] text-[#E72D2D]"
                             : "border border-[#F5F5F5]"
                             }`}
@@ -192,7 +192,7 @@ export const Schedule_Landing = () => {
                         5<sup>th</sup> November
                     </div>
                     <div
-                        className={`w-[210px] text-center uppercase text-3xl spaced tracking-normal rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${ShowItems === 2
+                        className={`w-fit xl:w-[210px] text-center uppercase text-3xl spaced tracking-normal rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${ShowItems === 2
                             ? "border border-[#E72D2D] text-[#E72D2D]"
                             : "border border-[#F5F5F5]"
                             }`}
@@ -201,11 +201,11 @@ export const Schedule_Landing = () => {
                     >
                         6<sup>th</sup> November
                     </div>
-                    <div className='text-2xl'>
+                    <div className='text-2xl hidden lg:block'>
                         Event Wrap off
                     </div>
                 </div>
-                <div className='pl-14 pt-10 '>
+                <div className='px-10 md:pl-14 pt-10 mx-auto sm:mx-0'>
 
 
                     {
