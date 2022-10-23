@@ -105,7 +105,16 @@ export const Sponsors = () => {
             "parentcss": "py-3"
         },
     ]
-
+    const silver_sponsors = [
+        {
+            "name": "Edufabrica",
+            "url": "https://www.edufabrica.net/",
+            "img": "./Images/Sponsors/Edufabrica.jpg",
+            "sponsornumber": "Sponsor 7",
+            "css": "px-3 py-3",
+            "parentcss": "py-3"
+        },
+    ]
     const event_sponsors = [
         {
             "name": "Geeks for Geeks",
@@ -155,30 +164,10 @@ export const Sponsors = () => {
             "css": "px-3 py-3",
             "parentcss": "py-3"
         },
-
-    ]
-
-    const other_sponsors = [
         {
             "name": "Analytics India Magazine",
             "url": "https://analyticsindiamag.com/",
             "img": "./Images/Sponsors/AIM.png",
-            "sponsornumber": "Sponsor 7",
-            "css": "px-3 py-3",
-            "parentcss": "py-3"
-        },
-        {
-            "name": "Edufabrica",
-            "url": "https://www.edufabrica.net/",
-            "img": "./Images/Sponsors/Edufabrica.jpg",
-            "sponsornumber": "Sponsor 7",
-            "css": "px-3 py-3",
-            "parentcss": "py-3"
-        },
-        {
-            "name": "Adhoc Media",
-            "url": "https://www.adhocmedia.co/",
-            "img": "./Images/Sponsors/adhocmedia.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
             "parentcss": "py-3"
@@ -191,6 +180,21 @@ export const Sponsors = () => {
             "css": "px-3 py-3",
             "parentcss": "py-3"
         },
+
+    ]
+
+    const other_sponsors = [
+       
+       
+        {
+            "name": "Adhoc Media",
+            "url": "https://www.adhocmedia.co/",
+            "img": "./Images/Sponsors/adhocmedia.png",
+            "sponsornumber": "Sponsor 7",
+            "css": "px-3 py-3",
+            "parentcss": "py-3"
+        },
+        
         {
             "name": "Newton School",
             "url": "https://www.newtonschool.co/",
@@ -250,6 +254,12 @@ export const Sponsors = () => {
                                 Gold Sponsor
                             </div>
                             <SponsorCard sponsor={gold_sponsors[0]} />
+                        </div>
+                        <div className='flex flex-col justify-center items-center space-y-2'>
+                            <div className='spaced uppercase text-2xl tracking-wider'>
+                                Silver Sponsor
+                            </div>
+                            <SponsorCard sponsor={silver_sponsors[0]} />
                         </div>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <div className='spaced uppercase text-2xl tracking-wider'>
