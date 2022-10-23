@@ -135,7 +135,7 @@ export const Sponsors = () => {
         {
             "name": "Stock Gro",
             "url": "https://www.stockgro.club/",
-            "img": "./Images/Sponsors/stock.jpg",
+            "img": "./Images/Sponsors/Stock.jpg",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
             "parentcss": "py-3"
