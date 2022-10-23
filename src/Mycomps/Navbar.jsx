@@ -31,9 +31,9 @@ export const Navbar = () => {
           >
             EVENTS
           </Link>
-          <div className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
+          <Link to='/schedule' className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
             SCHEDULE
-          </div>
+          </Link>
           <Link className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
             to="/"
           >
