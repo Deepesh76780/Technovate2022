@@ -180,21 +180,6 @@ export const Sponsors = () => {
             "css": "px-3 py-3",
             "parentcss": "py-3"
         },
-
-    ]
-
-    const other_sponsors = [
-       
-       
-        {
-            "name": "Adhoc Media",
-            "url": "https://www.adhocmedia.co/",
-            "img": "./Images/Sponsors/adhocmedia.png",
-            "sponsornumber": "Sponsor 7",
-            "css": "px-3 py-3",
-            "parentcss": "py-3"
-        },
-        
         {
             "name": "Newton School",
             "url": "https://www.newtonschool.co/",
@@ -203,6 +188,21 @@ export const Sponsors = () => {
             "css": "px-3 py-3",
             "parentcss": "py-3"
         },
+
+    ]
+
+    const other_sponsors = [
+       
+       
+        // {
+        //     "name": "Adhoc Media",
+        //     "url": "https://www.adhocmedia.co/",
+        //     "img": "./Images/Sponsors/adhocmedia.png",
+        //     "sponsornumber": "Sponsor 7",
+        //     "css": "px-3 py-3",
+        //     "parentcss": "py-3"
+        // },
+        
     ]
 
 
@@ -309,7 +309,7 @@ export const Sponsors = () => {
 
 
                     </div>
-                    <div className='flex flex-col justify-center items-center space-y-3'>
+                    {/* <div className='flex flex-col justify-center items-center space-y-3'>
                         <div className='spaced uppercase text-4xl tracking-wider pb-4'>
                             Sponsors
                         </div>
@@ -326,7 +326,7 @@ export const Sponsors = () => {
 
 
 
-                    </div>
+                    </div> */}
 
 
 
