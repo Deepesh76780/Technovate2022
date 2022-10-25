@@ -13,7 +13,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/airchains vertical.png",
             "sponsornumber": "Sponsor 1",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
 
     ]
@@ -24,7 +24,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/Rajat.png",
             "sponsornumber": "Sponsor 1",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         // {
         //     "name": "Microsoft",
@@ -32,7 +32,7 @@ export const Sponsors = () => {
         //     "img": "https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen-1920x706.jpg",
         //     "sponsornumber": "Sponsor 2",
         //     "css": "px-3 py-3",
-        //     "parentcss": "py-3"
+        //     "parentcss": "py-3 bg-white border-white "
         // },
     ]
 
@@ -43,7 +43,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/NTPC.png",
             "sponsornumber": "Sponsor 3",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         // {
         //     "name": "Facebook",
@@ -51,7 +51,7 @@ export const Sponsors = () => {
         //     "img": "https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png",
         //     "sponsornumber": "Sponsor 4",
         //     "css": "px-3 py-3",
-        //     "parentcss": "py-3"
+        //     "parentcss": "py-3 bg-white border-white "
         // },
     ]
 
@@ -62,7 +62,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/coca-cola.png",
             "sponsornumber": "Sponsor 4",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
     ]
     const health_sponsors = [
@@ -72,7 +72,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/NHMMI.png",
             "sponsornumber": "Sponsor 5",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
     ]
     const gold_sponsors = [
@@ -82,7 +82,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/CREDA.jpeg",
             "sponsornumber": "Sponsor 6",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
     ]
     const music_sponsors = [
@@ -92,7 +92,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/SARGAM.png",
             "sponsornumber": "Sponsor 8",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
     ]
     const coverage_sponsors = [
@@ -102,7 +102,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/insideme.webp",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-black border-black"
         },
     ]
     const silver_sponsors = [
@@ -112,7 +112,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/Edufabrica.jpg",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
     ]
     const event_sponsors = [
@@ -122,7 +122,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/gfg.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "LIC",
@@ -130,7 +130,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/LIC.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "Stock Gro",
@@ -138,7 +138,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/Stock.jpg",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "MetaCTF",
@@ -146,7 +146,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/MetaCTF.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "ICICI Bank",
@@ -154,7 +154,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/icici.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "Y Hills",
@@ -162,7 +162,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/yhills.jpg",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "Analytics India Magazine",
@@ -170,7 +170,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/AIM.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "Boookd",
@@ -178,7 +178,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/Boookd.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
         {
             "name": "Newton School",
@@ -186,7 +186,7 @@ export const Sponsors = () => {
             "img": "./Images/Sponsors/Newton School.png",
             "sponsornumber": "Sponsor 7",
             "css": "px-3 py-3",
-            "parentcss": "py-3"
+            "parentcss": "py-3 bg-white border-white "
         },
 
     ]
@@ -200,7 +200,7 @@ export const Sponsors = () => {
         //     "img": "./Images/Sponsors/adhocmedia.png",
         //     "sponsornumber": "Sponsor 7",
         //     "css": "px-3 py-3",
-        //     "parentcss": "py-3"
+        //     "parentcss": "py-3 bg-white border-white "
         // },
         
     ]
@@ -263,28 +263,28 @@ export const Sponsors = () => {
                         </div>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <div className='spaced uppercase text-2xl tracking-wider'>
-                                Beverage Sponsor
+                                Beverage Partner
                             </div>
                             <SponsorCard sponsor={beverage_sponsors[0]} />
                         </div>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <div className='spaced uppercase text-2xl tracking-wider'>
-                                Health Sponsor
+                                Health Partner
                             </div>
                             <SponsorCard sponsor={health_sponsors[0]} />
                         </div>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <div className='spaced uppercase text-2xl tracking-wider'>
-                                Music Sponsor
+                                Music Partner
                             </div>
                             <SponsorCard sponsor={music_sponsors[0]} />
                         </div>
-                        {/* <div className='flex flex-col justify-center items-center space-y-2'>
+                        <div className='flex flex-col justify-center items-center space-y-2'>
                             <div className='spaced uppercase text-2xl tracking-wider'>
-                            Coverage Sponsor
+                            Coverage Partner
                             </div>
                             <SponsorCard sponsor={coverage_sponsors[0]} />
-                        </div> */}
+                        </div>
 
                     </div>
 
