@@ -67,18 +67,18 @@ export const Technical = () => {
         "Ajeet Ram Varma",
       ],
     },
-    {
-      name: "Buzzreign",
-      details:
-        "A fantastic opportunity to test the drone maneuvering skills of the participants via two very fun events to test the capabilities of the participants. These include an obstacle course and a race to determine the best drone pilots in the event who will be awarded for their excellence.",
-      image: "./Images/Event/Technical/buzzreign.png",
-      event_poster: "../Images/Event/subevents/technical/buzzreign@4x.png",
-      rulebook: "",
-      registration_link:
-        "https://unstop.com/competition/buzzreign-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-440433?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
-      event_heads: ["Aayushman", "Aadi Juvekar"],
-      volunteer_heads: ["Anshul Gupta", "Firoz Ahmed", "Nanditha"],
-    },
+    // {
+    //   name: "Buzzreign",
+    //   details:
+    //     "A fantastic opportunity to test the drone maneuvering skills of the participants via two very fun events to test the capabilities of the participants. These include an obstacle course and a race to determine the best drone pilots in the event who will be awarded for their excellence.",
+    //   image: "./Images/Event/Technical/buzzreign.png",
+    //   event_poster: "../Images/Event/subevents/technical/buzzreign@4x.png",
+    //   rulebook: "",
+    //   registration_link:
+    //     "https://unstop.com/competition/buzzreign-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-440433?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
+    //   event_heads: ["Aayushman", "Aadi Juvekar"],
+    //   volunteer_heads: ["Anshul Gupta", "Firoz Ahmed", "Nanditha"],
+    // },
     {
       name: "Bug Bash",
       details:
