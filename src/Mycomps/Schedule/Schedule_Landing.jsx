@@ -50,7 +50,7 @@ export const Schedule_Landing = () => {
                         "Hack Crypto",
                         "Bug Bash",
                         "Hacknovate",
-                        "Rangostav"]
+                        ]
                 },
                 {
                     time: '20:00 onwards',
@@ -85,9 +85,10 @@ export const Schedule_Landing = () => {
                     time: '15:00 - 17:00',
                     event: [
                         "Hacknovate",
+                        "Raag Ratri",
+                        "Battle of Bands",
                         "ElectroBlitz",
-                        "Let's Nacho (Solo)",
-                        "Let's Nacho (Group)",
+                        "Rangotsav",
                     ]
                 },
                 {
@@ -95,7 +96,8 @@ export const Schedule_Landing = () => {
                     event: [
                         "Hacknovate",
                         "ElectroBlitz",
-                        "Let's Nacho (Group)",
+                        "Battle of Bands",
+                        // "Let's Nacho (Group)",
                     ]
                 },
                 {
@@ -124,7 +126,7 @@ export const Schedule_Landing = () => {
                     event: [
                         "Buzzreign",
                         "Robolution",
-                        "Raag Ratri",
+                        // "Raag Ratri",
                         "Hacknovate",
                         "Rangotsav",
                     ]
@@ -132,9 +134,11 @@ export const Schedule_Landing = () => {
                 {
                     time: '15:00 - 17:00',
                     event: [
-                        "Raag Ratri",
-                        "Battle of Bands",
+                        // "Raag Ratri",
+                        // "Battle of Bands",
                         "Hacknovate",
+                        "Let's Nacho (Solo)",
+                        "Let's Nacho (Group)",
                         "Robolution",
                         "Rangotsav",
                     ]
@@ -142,10 +146,13 @@ export const Schedule_Landing = () => {
                 {
                     time: '17:00 - 20:00',
                     event: [
-                        "Battle of Bands",
+                        // "Battle of Bands",
+                        "Let's Nacho (Group)",
                         "Hacknovate",
                         "Robolution",
-                        "Rangostav"]
+                        "New vogue",
+                        // "Rangotsav"
+                    ]
                 },
                 {
                     time: '20:00 onwards',
