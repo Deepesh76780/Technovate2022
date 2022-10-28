@@ -4,6 +4,7 @@ import { Cultural } from "./Cultural";
 import { Informal } from "./Informal";
 import { MockEvent } from "./MockEvent";
 import { Technical } from "./Technical";
+import { ProNights } from "./ProNights";
 
 export const EventLanding = () => {
   const [ShowItems, setShowItems] = useState(1);
@@ -26,6 +27,19 @@ export const EventLanding = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 xs:space-x-5 py-20">
           <div className="flex flex-col xs:flex-row md:hidden justify-center items-center xs:space-x-5 xs:mb-4 space-y-4 xs:space-y-0">
+           
+
+          <div
+            className={`w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
+              ShowItems === 3
+                ? "border border-[#E72D2D] text-[#E72D2D]"
+                : "border border-[#F5F5F5]"
+            }`}
+            onClick={() => setShowItems(3)}
+          >
+            ProNights
+          </div>
+
             <div
               className={`w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
                 ShowItems === 0
@@ -36,6 +50,7 @@ export const EventLanding = () => {
             >
               Cultural
             </div>
+
             <div
               className={`w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
                 ShowItems === 1
@@ -46,7 +61,21 @@ export const EventLanding = () => {
             >
               Technical
             </div>
+
+
           </div>
+
+          <div
+            className={`hidden md:block w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
+              ShowItems === 3
+                ? "border border-[#E72D2D] text-[#E72D2D]"
+                : "border border-[#F5F5F5]"
+            }`}
+            onClick={() => setShowItems(3)}
+          >
+            ProNights
+          </div>
+
           <div
             className={`hidden md:block w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
               ShowItems === 0
@@ -57,6 +86,9 @@ export const EventLanding = () => {
           >
             Cultural
           </div>
+
+
+
           <div
             className={`hidden md:block w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
               ShowItems === 1
@@ -67,6 +99,9 @@ export const EventLanding = () => {
           >
             Technical
           </div>
+
+
+
           <div
             className={`w-[210px] text-center uppercase text-3xl spaced tracking-widest rounded-xl border px-4 py-2 cursor-pointer hover:border-[#E72D2D] hover:text-[#E72D2D] transition-colors duration-300 ${
               ShowItems === 2
@@ -77,14 +112,22 @@ export const EventLanding = () => {
           >
             Informal
           </div>
+
+
+
+
+
+
         </div>
         <div className="my-5">
           {ShowItems === 0 ? (
             <Cultural />
           ) : ShowItems === 1 ? (
             <Technical />
-          ) : (
+          ) : ShowItems === 2 ?(
             <Informal />
+          ):(
+            <ProNights />
           )}
         </div>
       </div>

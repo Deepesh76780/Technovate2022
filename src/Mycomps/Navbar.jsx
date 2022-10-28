@@ -102,12 +102,12 @@ export const Navbar = () => {
           >
             EVENTS
           </Link>
-          <div className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
+          <Link to="/schedule" className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
             SCHEDULE
-          </div>
-          <div className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
+          </Link>
+          <Link to="/sponsors" className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer">
             SPONSORS
-          </div>
+          </Link>
           <Link
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
             to="/team"
@@ -120,14 +120,14 @@ export const Navbar = () => {
           >
             BLOGS
           </Link>
-          <a
+          {/* <a
             className="glow-on-hover px-2 text-center text-xs flex justify-center items-center"
             href="https://unstop.com/competition/campus-ambassador-program-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-437633"
             target="_blank"
             rel="noreferrer"
           >
             Campus Ambassdor Program
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

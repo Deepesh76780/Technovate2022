@@ -10,7 +10,9 @@ export const EventCard = ({
   event_poster,
   registration_link,
   event_posters,
-  registration_links
+  registration_links,
+  CondDirect,
+  DirectURL
 }) => {
   const navigate = useNavigate();
 
@@ -18,21 +20,26 @@ export const EventCard = ({
     <div
       className="flex flex-col space-y-3 justify-center items-center bg-black bg-opacity-75 opacity-100 rounded-2xl px-2 py-4 xl:w-[300px] cursor-pointer"
       onClick={() => {
-        navigate(`/eventdetail/${name}`, {
-          state: {
-            details: {
-              event_name: name,
-              event_detail: details,
-              event_poster: event_poster,
-              rulebook: "",
-              event_heads: event_heads,
-              volunteer_heads: volunteer_heads,
-              registration_link: registration_link,
-              event_posters: event_posters,
-              registration_links: registration_links
+        if(CondDirect){
+          window.open(DirectURL, "_blank");
+        }
+        else{
+          navigate(`/eventdetail/${name}`, {
+            state: {
+              details: {
+                event_name: name,
+                event_detail: details,
+                event_poster: event_poster,
+                rulebook: "",
+                event_heads: event_heads,
+                volunteer_heads: volunteer_heads,
+                registration_link: registration_link,
+                event_posters: event_posters,
+                registration_links: registration_links
+              },
             },
-          },
-        });
+          });
+        }
       }}
     >
       <div className="z-0">

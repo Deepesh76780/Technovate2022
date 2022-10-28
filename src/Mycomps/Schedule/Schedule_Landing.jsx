@@ -212,7 +212,7 @@ export const Schedule_Landing = () => {
                         Event Wrap off
                     </div>
                 </div>
-                <div className='px-10 md:pl-14 pt-10 mx-auto sm:mx-0'>
+                <div className='px-10 md:pl-14 pt-10 mx-auto flex flex-col justify-center items-center'>
 
 
                     {

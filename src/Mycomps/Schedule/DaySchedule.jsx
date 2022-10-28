@@ -11,7 +11,7 @@ export const DaySchedule = ({ schedule_1 }) => {
 
   return (
 
-    <div className='flex flex-col justify-center items-start sm:justify-start sm:items-start px-4 py-10 border border-white rounded-xl w-fit sm:w-[480px] md:w-[700px] lg:w-[900px] xl:w-[1200px]'>
+    <div className='glowingbox bg-black bg-opacity-50 flex flex-col justify-center items-start sm:justify-center sm:items-center px-4 py-10 border border-white rounded-xl w-fit sm:w-[480px] md:w-[700px] lg:w-[900px] xl:w-[80vw] '>
       <div className='text-2xl md:text-3xl pb-4'>
         {schedule[0].date}
       </div>
@@ -34,7 +34,7 @@ export const DaySchedule = ({ schedule_1 }) => {
                             {/* <img src={image} className="'>" alt="" /> */}
                             {item.event_name}
                           </div>
-                          <div className='w-[280px] flex flex-col space-y-2 justify-center items-center rounded-lg absolute top-0 bg-black bg-opacity-100 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in  h-[50px]'>
+                          <div className='w-[280px] flex flex-col space-y-2 justify-center items-center rounded-lg absolute top-0 border border-white bg-black bg-opacity-100 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in  h-[50px]'>
                             <div className='text-sm'>Venue :- TBD</div>
 
                           </div>
