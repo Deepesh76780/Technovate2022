@@ -35,7 +35,7 @@ export const DaySchedule = ({ schedule_1 }) => {
                             {item.event_name}
                           </div>
                           <div className='w-[280px] flex flex-col space-y-2 justify-center items-center rounded-lg absolute top-0 border border-white bg-black bg-opacity-100 opacity-0 hover:opacity-100 transition-opacity duration-300 ease-in  h-[50px]'>
-                            <div className='text-sm'>Venue :- TBD</div>
+                            <div className='text-sm'>Venue :-  {item.event_venue}</div>
 
                           </div>
                         </div>
