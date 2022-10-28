@@ -12,98 +12,50 @@ export const Schedule_Landing = () => {
                 {
                     time: '10:00 - 12:00',
                     event: [
-                        "Hacknovate",
-                        "Rangotsav",
-                        "Aawaz - Nukkad Natak",
-                        "Conquer The Space",
-                        "It's Data Time",
-                        "Investomania"
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Aawaz - Nukkad Natak",event_venue:"Amphitheatre"},
+                        {event_name:"Conquer The Space",event_venue:"Room-121"},
+                        {event_name:"It's Data Time",event_venue:"Online"},
+                        {event_name:"Investomania",event_venue:"Online"},
                     ]
                 },
                 {
                     time: '12:00 - 15:00',
                     event: [
-                        "Rangotsav",
-                        "Aawaz - Nukkad Natak",
-                        "Conquer The Space",
-                        "Unlock The Technoverse",
-                        "Hack Crypto",
-                        "Hacknovate",
-                        "Investomania"
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Aawaz - Nukkad Natak",event_venue:"Amphitheatre"},
+                        {event_name:"Conquer The Space",event_venue:"Room-121"},
+                        {event_name:"Unlock The Technoverse",event_venue:"Online"},
+                        {event_name:"Hack Crypto",event_venue:"CP Lab"},
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Investomania",event_venue:"Online"},
                     ]
                 },
                 {
                     time: '15:00 - 17:00',
                     event: [
-                        "Rangotsav",
-                        "Aawaz - Nukkad Natak",
-                        "Unlock The Technoverse",
-                        "Hack Crypto",
-                        "Hacknovate",
-                        "Investomania"
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Aawaz - Nukkad Natak",event_venue:"Amphitheatre"},
+                        {event_name:"Unlock The Technoverse",event_venue:"Online"},
+                        {event_name:"Hack Crypto",event_venue:"CP Lab"},
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Investomania",event_venue:"Online"},
                     ]
                 },
                 {
                     time: '17:00 - 20:00',
                     event: [
-                        "Unlock The Technoverse",
-                        "Hack Crypto",
-                        "Bug Bash",
-                        "Hacknovate",
+                        {event_name:"Unlock The Technoverse",event_venue:"Online"},
+                        {event_name:"Hack Crypto",event_venue:"CP Lab"},
+                        {event_name:"Bug Bash",event_venue:"Data Science Lab"},
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         ]
                 },
                 {
                     time: '20:00 onwards',
                     event: [
-                        "Pro Night"
-                    ]
-                }
-            ]
-        }
-    ]
-    const schedule_2 = [
-        {
-            date: 'November 5, 2022',
-            events: [
-                {
-                    time: '10:00 - 12:00',
-                    event: [
-                        "Infinity Perplex",
-                        "Rangotsav"
-                    ]
-                },
-                {
-                    time: '12:00 - 15:00',
-                    event: [
-                        "Hacknovate",
-                        "ElectroBlitz",
-                        "Rangotsav",
-                        "Infinity Perplex",
-                    ]
-                },
-                {
-                    time: '15:00 - 17:00',
-                    event: [
-                        "Hacknovate",
-                        "Raag Ratri",
-                        "Battle of Bands",
-                        "ElectroBlitz",
-                        "Rangotsav",
-                    ]
-                },
-                {
-                    time: '17:00 - 20:00',
-                    event: [
-                        "Hacknovate",
-                        "ElectroBlitz",
-                        "Battle of Bands",
-                        // "Let's Nacho (Group)",
-                    ]
-                },
-                {
-                    time: '20:00 onwards',
-                    event: [
-                        "Pro Night"
+                        {event_name:"Pro Night",event_venue:"Room-121"},
                     ]
                 }
             ]
@@ -116,48 +68,96 @@ export const Schedule_Landing = () => {
                 {
                     time: '10:00 - 12:00',
                     event: [
-                        "Buzzreign",
-                        "Hacknovate",
-                        "Rangotsav"
+                        {event_name:"Infinity Perplex",event_venue:"Data Science Lab"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
                     ]
                 },
                 {
                     time: '12:00 - 15:00',
                     event: [
-                        "Buzzreign",
-                        "Robolution",
-                        // "Raag Ratri",
-                        "Hacknovate",
-                        "Rangotsav",
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Infinity Perplex",event_venue:"Data Science Lab"},
                     ]
                 },
                 {
                     time: '15:00 - 17:00',
                     event: [
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
+                        {event_name:"Let's Nacho (Solo)",event_venue:"Main Stage",},
+                        {event_name:"Let's Nacho (Group)",event_venue:"Main Stage",},
+                        
+                    ]
+                },
+                {
+                    time: '17:00 - 20:00',
+                    event: [
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
+                        {event_name:"Let's Nacho (Group)",event_venue:"Main Stage",},
+                        // "Let's Nacho (Group)",
+                    ]
+                },
+                {
+                    time: '20:00 onwards',
+                    event: [
+                        {event_name:"Pro Night",event_venue:"Room-121"},
+                    ]
+                }
+            ]
+        }
+    ]
+    const schedule_2 = [
+        {
+            date: 'November 5, 2022',
+            events: [
+                {
+                    time: '10:00 - 12:00',
+                    event: [
+                    //    {event_name: "Buzzreign",event_venue:"Room-121"},
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                    ]
+                },
+                {
+                    time: '12:00 - 15:00',
+                    event: [
+                        // {event_name:"Buzzreign",event_venue:"Room-121"},
+                        {event_name:"Robolution",event_venue:"TBD"},
                         // "Raag Ratri",
-                        // "Battle of Bands",
-                        "Hacknovate",
-                        "Let's Nacho (Solo)",
-                        "Let's Nacho (Group)",
-                        "Robolution",
-                        "Rangotsav",
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Raag Ratri",event_venue:"Main Stage"},
+                    ]
+                },
+                {
+                    time: '15:00 - 17:00',
+                    event: [
+                        {event_name:"Raag Ratri",event_venue:"Main Stage"},
+                        {event_name:"Battle of Bands",event_venue:"Main Stage"},
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Robolution",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
                     ]
                 },
                 {
                     time: '17:00 - 20:00',
                     event: [
                         // "Battle of Bands",
-                        "Let's Nacho (Group)",
-                        "Hacknovate",
-                        "Robolution",
-                        "New vogue",
+                        {event_name:"Battle of Bands",event_venue:"Main Stage"},
+                        {event_name:"Hacknovate",event_venue:"Room-137,138"},
+                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Robolution",event_venue:"TBD"},
+
                         // "Rangotsav"
                     ]
                 },
                 {
                     time: '20:00 onwards',
                     event: [
-                        "Pro Night"
+                        {event_name:"Pro Night",event_venue:"Room-121"},
                     ]
                 }
             ]
