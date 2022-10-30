@@ -55,7 +55,7 @@ export const Schedule_Landing = () => {
                 {
                     time: '20:00 onwards',
                     event: [
-                        {event_name:"Pro Night",event_venue:"Room-121"},
+                        {event_name:"Pro Night",event_venue:"Football Ground"},
                     ]
                 }
             ]
@@ -103,7 +103,7 @@ export const Schedule_Landing = () => {
                 {
                     time: '20:00 onwards',
                     event: [
-                        {event_name:"Pro Night",event_venue:"Room-121"},
+                        {event_name:"Pro Night",event_venue:"Football Ground"},
                     ]
                 }
             ]
@@ -157,7 +157,7 @@ export const Schedule_Landing = () => {
                 {
                     time: '20:00 onwards',
                     event: [
-                        {event_name:"Pro Night",event_venue:"Room-121"},
+                        {event_name:"Pro Night",event_venue:"Football Ground"},
                     ]
                 }
             ]
