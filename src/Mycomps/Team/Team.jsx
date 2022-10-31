@@ -7,6 +7,15 @@ export const Team = () => {
 
   const team = [
     {
+      "name": "Dr. Venkanna U",
+      "role": "Faculty Coordinator",
+      "phone": "9440973184",
+      "email": "venkannau@iiitnr.edu.in",
+      "linkedin": "https://www.linkedin.com/in/venkanna-uduthalapally-1749a6143/",
+      "photo": "./Images/Team/TeamPhotos/venkannau.jpg",
+      "css": "bg-cover bg-center"
+    },
+    {
       "name": "Ketan Agrawal",
       "role": "Overall Coordinator",
       "phone": "9893252074",
