@@ -17,14 +17,20 @@ export const Navbar = () => {
         </Link>
 
         <div className="flex flex-row space-x-[1.5vw] md:space-x-[2vw] lg:space-x-[3vw] text-red-100 text-lg md:text-[20px] spaced px-[10vw] ">
-          <a
+          {/* <a
             rel="noreferrer"
             href="https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915"
             target="_blank"
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
           >
             REGISTER
-          </a>
+          </a> */}
+          <Link
+            className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
+            to="/"
+          >
+            Home
+          </Link>
           <Link
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
             to="/event"
@@ -52,16 +58,16 @@ export const Navbar = () => {
             BLOGS
           </Link>
         </div>
-        {/* <a
+        <a
           className="hidden lg:block absolute right-12"
-          href="https://unstop.com/competition/campus-ambassador-program-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-437633"
-          target="_blank"
           rel="noreferrer"
+          href="https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915"
+          target="_blank"
         >
           <div className="glow-on-hover px-2 text-center text-xs flex justify-center items-center">
-            Campus Ambassdor Program
+            Register
           </div>
-        </a> */}
+        </a>
       </div>
       <div className="sm:hidden flex flex-row justify-between items-center mx-2">
         <Link to="/" className="mt-2">
@@ -88,14 +94,20 @@ export const Navbar = () => {
         </Link>
         <div className="w-full h-0.5 bg-white -mx-2"></div>
         <div className="flex flex-col space-y-5">
-          <a
+          {/* <a
             rel="noreferrer"
             href="https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915"
             target="_blank"
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
           >
             REGISTER
-          </a>
+          </a> */}
+          <Link
+            className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
+            to="/"
+          >
+            HOME
+          </Link>
           <Link
             className="hover:text-[#E72D2D] transition-colors duration-300 cursor-pointer"
             to="/event"
@@ -120,14 +132,14 @@ export const Navbar = () => {
           >
             BLOGS
           </Link>
-          {/* <a
+          <a
             className="glow-on-hover px-2 text-center text-xs flex justify-center items-center"
-            href="https://unstop.com/competition/campus-ambassador-program-technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-437633"
-            target="_blank"
             rel="noreferrer"
+            href="https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915"
+            target="_blank"
           >
-            Campus Ambassdor Program
-          </a> */}
+            <span className="uppercase">Register</span>
+          </a>
         </div>
       </div>
     </div>

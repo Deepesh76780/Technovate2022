@@ -13,7 +13,7 @@ export const Schedule_Landing = () => {
                     time: '10:00 - 12:00',
                     event: [
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Aawaz - Nukkad Natak",event_venue:"Amphitheatre"},
                         {event_name:"Conquer The Space",event_venue:"Room-121"},
                         {event_name:"It's Data Time",event_venue:"Online"},
@@ -23,7 +23,7 @@ export const Schedule_Landing = () => {
                 {
                     time: '12:00 - 15:00',
                     event: [
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Aawaz - Nukkad Natak",event_venue:"Amphitheatre"},
                         {event_name:"Conquer The Space",event_venue:"Room-121"},
                         {event_name:"Unlock The Technoverse",event_venue:"Online"},
@@ -35,7 +35,7 @@ export const Schedule_Landing = () => {
                 {
                     time: '15:00 - 17:00',
                     event: [
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Aawaz - Nukkad Natak",event_venue:"Amphitheatre"},
                         {event_name:"Unlock The Technoverse",event_venue:"Online"},
                         {event_name:"Hack Crypto",event_venue:"CP Lab"},
@@ -69,7 +69,7 @@ export const Schedule_Landing = () => {
                     time: '10:00 - 12:00',
                     event: [
                         {event_name:"Infinity Perplex",event_venue:"Data Science Lab"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                     ]
                 },
                 {
@@ -77,7 +77,7 @@ export const Schedule_Landing = () => {
                     event: [
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Infinity Perplex",event_venue:"Data Science Lab"},
                     ]
                 },
@@ -118,7 +118,7 @@ export const Schedule_Landing = () => {
                     event: [
                     //    {event_name: "Buzzreign",event_venue:"Room-121"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                     ]
                 },
                 {
@@ -128,7 +128,7 @@ export const Schedule_Landing = () => {
                         {event_name:"Robolution",event_venue:"TBD"},
                         // "Raag Ratri",
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Raag Ratri",event_venue:"Main Stage"},
                     ]
                 },
@@ -139,7 +139,7 @@ export const Schedule_Landing = () => {
                         {event_name:"Battle of Bands",event_venue:"Main Stage"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"Robolution",event_venue:"TBD"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                     ]
                 },
                 {
@@ -148,7 +148,7 @@ export const Schedule_Landing = () => {
                         // "Battle of Bands",
                         {event_name:"Battle of Bands",event_venue:"Main Stage"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Robolution",event_venue:"TBD"},
 
                         // "Rangotsav"
