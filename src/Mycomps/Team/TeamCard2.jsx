@@ -20,7 +20,7 @@ export const TeamCard2 = ({ name, image, role, phone, email, linkedin, css }) =>
                             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                         </svg>
                     </a>
-                    <a className='text-base ml-4' href={linkedin}>
+                    <a className='text-base ml-4' target='_blank' rel="noreferrer" href={linkedin}>
                         <img src="./Images/Team/linkedin2.svg" alt="" />
                     </a>
                 </div>
