@@ -20,6 +20,7 @@ const Search = [
       "Jyoti sahu",
       "Vishal Raj Bais",
     ],
+    rulebook_link: "./Rulebooks/Raag Raatri.pdf",
   },
   {
     name: "The New Vogue",
@@ -32,6 +33,7 @@ const Search = [
       "https://unstop.com/creative-cultural-event/the-new-vogue-technovate-2022-440472?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
     event_heads: ["Sanjam Bedi", "Shristi Tiwari"],
     volunteer_heads: [],
+    rulebook_link: "./Rulebooks/The New Vogue.pdf",
   },
   {
     name: "Rangotsav (In A Flash)",
@@ -44,6 +46,7 @@ const Search = [
       "https://unstop.com/creative-cultural-event/rangotsav-in-a-flash-technovate-2022-international-institute-of-information-technology-iiit-naya-443729",
     event_heads: ["Sahil", "Riya D"],
     volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
+    rulebook_link: "./Rulebooks/Rangotsav INF.pdf",
   },
   {
     name: "Canvas Carnival",
@@ -56,6 +59,7 @@ const Search = [
       "https://unstop.com/creative-cultural-event/rangotsav-canvas-carnival-technovate-2022-international-institute-of-information-technology-iiit-447522",
     event_heads: ["Sahil", "Riya D"],
     volunteer_heads: ["Akaash Trivedi", "Esha Markam"],
+    rulebook_link:"./Rulebooks/Rangotsav CC.pdf",
   },
   {
     name: "Raag Raatri",
@@ -76,6 +80,7 @@ const Search = [
       "Rahul Meshram",
       "Nikhil Kumar kurrey",
     ],
+    rulebook_link:"./Rulebooks/Raag Raatri.pdf",
   },
   {
     name: "Battle of Bands",
@@ -88,6 +93,7 @@ const Search = [
       "https://unstop.com/creative-cultural-event/battle-of-bands-technovate-2022-international-institute-of-information-technology-iiit-naya-raip-440616?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
     event_heads: ["Gautam Gupta", "Aarsh Vaidya"],
     volunteer_heads: ["Nikhil Kumar kurrey", "Chirag Matta", "Ajay Kumar"],
+    rulebook_link:"./Rulebooks/Battle of Bands.pdf",
   },
   {
     name: "Gamer's Crusade",
@@ -115,6 +121,7 @@ const Search = [
       "Srijan Ratrey",
       "Ramesh Chandra Bhanu",
     ],
+    rulebook_link:"./Rulebooks/Gamers Crusade.pdf",
   },
   {
     name: "Awaaz",
@@ -127,6 +134,7 @@ const Search = [
       "https://unstop.com/creative-cultural-event/awaaz-technovate-2022-440499",
     event_heads: ["Aadi juvekar", "Parth Jhunjhunwala", " Aaditya Tripathi"],
     volunteer_heads: ["Aaditya Kumar", "Vinod chandravanshi"],
+    rulebook_link:"./Rulebooks/Awaaz.pdf",
   },
   {
     name: "Codewars",
@@ -304,7 +312,7 @@ const Search = [
     ],
   },
   {
-    name: "Gamer's  Crusade",
+    name: "Gamer's Crusade",
     details:
       "It is an online gaming event in which teams will participate in different games and compete against each other",
     image: "./Images/Event/Informal/team.png",
