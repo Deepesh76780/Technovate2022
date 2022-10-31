@@ -13,7 +13,7 @@ const ProNightList = [
       name: "EDM Night",
       DirectURL: "https://unstop.com/p/edm-night-international-institute-of-information-technology-iiit-naya-raipur-473133",
       details:"Different games will be played in the AR/VR format. The exact types of the games will depend upon the sponsors.",
-      image: "./Images/Logo.svg",
+      image: "./Images/Event/edmnight.png",
       event_poster: "../Images/Event/Informal/event.png",
       rulebook: "",
       event_heads: ["Ayushman Tripathi", "Navneet Kumar Chaubey"],
