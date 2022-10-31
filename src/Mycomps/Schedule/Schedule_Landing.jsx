@@ -118,7 +118,7 @@ export const Schedule_Landing = () => {
                     event: [
                     //    {event_name: "Buzzreign",event_venue:"Room-121"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                     ]
                 },
                 {
