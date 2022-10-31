@@ -128,7 +128,7 @@ export const Schedule_Landing = () => {
                         {event_name:"Robolution",event_venue:"TBD"},
                         // "Raag Ratri",
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Raag Ratri",event_venue:"Main Stage"},
                     ]
                 },
@@ -139,7 +139,7 @@ export const Schedule_Landing = () => {
                         {event_name:"Battle of Bands",event_venue:"Main Stage"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"Robolution",event_venue:"TBD"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                     ]
                 },
                 {
@@ -148,7 +148,7 @@ export const Schedule_Landing = () => {
                         // "Battle of Bands",
                         {event_name:"Battle of Bands",event_venue:"Main Stage"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
-                        {event_name:"Rangotsav",event_venue:"TBD"},
+                        {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Robolution",event_venue:"TBD"},
 
                         // "Rangotsav"
