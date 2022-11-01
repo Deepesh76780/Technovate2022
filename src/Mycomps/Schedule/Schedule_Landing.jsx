@@ -79,6 +79,7 @@ export const Schedule_Landing = () => {
                         {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
                         {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Infinity Perplex",event_venue:"Data Science Lab"},
+                        {event_name:"New Vogue",event_venue:"Auditorium "},
                     ]
                 },
                 {
@@ -86,8 +87,8 @@ export const Schedule_Landing = () => {
                     event: [
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
-                        {event_name:"Let's Nacho (Solo)",event_venue:"Main Stage",},
-                        {event_name:"Let's Nacho (Group)",event_venue:"Main Stage",},
+                        {event_name:"Let's Nacho (Solo)",event_venue:"Football Ground",},
+                        {event_name:"Let's Nacho (Group)",event_venue:"Football Ground",},
                         
                     ]
                 },
@@ -96,7 +97,8 @@ export const Schedule_Landing = () => {
                     event: [
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"ElectroBlitz",event_venue:"IoT Lab"},
-                        {event_name:"Let's Nacho (Group)",event_venue:"Main Stage",},
+                        {event_name:"Let's Nacho (Group)",event_venue:"Football Ground",},
+                        {event_name:"New Vogue",event_venue:"Football Ground",},
                         // "Let's Nacho (Group)",
                     ]
                 },
@@ -129,14 +131,14 @@ export const Schedule_Landing = () => {
                         // "Raag Ratri",
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"Rangotsav",event_venue:"Academic Block"},
-                        {event_name:"Raag Ratri",event_venue:"Main Stage"},
+                        {event_name:"Raag Ratri",event_venue:"Football Ground"},
                     ]
                 },
                 {
                     time: '15:00 - 17:00',
                     event: [
-                        {event_name:"Raag Ratri",event_venue:"Main Stage"},
-                        {event_name:"Battle of Bands",event_venue:"Main Stage"},
+                        {event_name:"Raag Ratri",event_venue:"Football Ground"},
+                        {event_name:"Battle of Bands",event_venue:"Football Ground"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"Robolution",event_venue:"TBD"},
                         {event_name:"Rangotsav",event_venue:"Academic Block"},
@@ -146,7 +148,7 @@ export const Schedule_Landing = () => {
                     time: '17:00 - 20:00',
                     event: [
                         // "Battle of Bands",
-                        {event_name:"Battle of Bands",event_venue:"Main Stage"},
+                        {event_name:"Battle of Bands",event_venue:"Football Ground"},
                         {event_name:"Hacknovate",event_venue:"Room-137,138"},
                         {event_name:"Rangotsav",event_venue:"Academic Block"},
                         {event_name:"Robolution",event_venue:"TBD"},
