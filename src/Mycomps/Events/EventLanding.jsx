@@ -7,7 +7,7 @@ import { Technical } from "./Technical";
 import { ProNights } from "./ProNights";
 
 export const EventLanding = () => {
-  const [ShowItems, setShowItems] = useState(1);
+  const [ShowItems, setShowItems] = useState(3);
 
   return (
     <div>
