@@ -268,7 +268,7 @@ export const LandingPage = (props) => {
                 REGISTER
               </a>
             </div>
-            <div className="text-xl md:text-2xl lg:text-4xl pt-10 text-center">
+            <div className="text-xl md:text-2xl lg:text-4xl pt-10 text-center spaced uppercase">
               {/* Take off at <span className=" text-[#E72D2D] ">T minus</span>{" "}
               <br></br>
               {CD} */}
