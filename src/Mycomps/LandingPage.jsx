@@ -137,7 +137,7 @@ export const LandingPage = (props) => {
               val ? "translate-y-[-120%]" : "translate-y-[0]"
             }`}
           >
-            <div className="h-10"></div>
+            <div className="h-6"></div>
 
             <Navbar />
           </div>
