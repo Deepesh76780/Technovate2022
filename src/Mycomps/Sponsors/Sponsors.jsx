@@ -53,6 +53,14 @@ export const Sponsors = () => {
             "css": "px-3 py-3 h-full scale-[135%]",
             "parentcss": "py-3 bg-white border-white "
         },
+        {
+            "name": "CG Tourism",
+            "url": "https://www.chhattisgarhtourism.in/",
+            "img": "./Images/Sponsors/CGTourism.png",
+            "sponsornumber": "Sponsor 7",
+            "css": "px-3 py-3 h-full ",
+            "parentcss": "py-3 bg-white border-white "
+        },
         // {
         //     "name": "Facebook",
         //     "url": "https://www.facebook.com/",
@@ -228,6 +236,26 @@ export const Sponsors = () => {
 
 
     ]
+    const banking = [
+        {
+            "name": "Union Bank of India",
+            "url": "https://www.unionbankofindia.co.in/",
+            "img": "./Images/Sponsors/unionbanklogo.png",
+            "sponsornumber": "Sponsor 7",
+            "css": "px-3 py-3 h-full ",
+            "parentcss": "py-3 bg-white border-white "
+        },
+    ]
+    const salon = [
+        {
+            "name": "Meenakshi Salons",
+            "url": "https://meenakshisalons.com/",
+            "img": "./Images/Sponsors/meenakshi_logo.svg",
+            "sponsornumber": "Sponsor 7",
+            "css": "px-3 py-3 h-full ",
+            "parentcss": "py-3 bg-white border-white "
+        },
+    ]
 
     const other_sponsors = [
 
@@ -242,30 +270,9 @@ export const Sponsors = () => {
         // },
 
       
-        {
-            "name": "CG Tourism",
-            "url": "https://www.chhattisgarhtourism.in/",
-            "img": "./Images/Sponsors/CGTourism.png",
-            "sponsornumber": "Sponsor 7",
-            "css": "px-3 py-3 h-full ",
-            "parentcss": "py-3 bg-white border-white "
-        },
-        {
-            "name": "Union Bank of India",
-            "url": "https://www.unionbankofindia.co.in/",
-            "img": "./Images/Sponsors/unionbanklogo.png",
-            "sponsornumber": "Sponsor 7",
-            "css": "px-3 py-3 h-full ",
-            "parentcss": "py-3 bg-white border-white "
-        },
-        {
-            "name": "Meenakshi Salons",
-            "url": "https://meenakshisalons.com/",
-            "img": "./Images/Sponsors/meenakshi_logo.svg",
-            "sponsornumber": "Sponsor 7",
-            "css": "px-3 py-3 h-full ",
-            "parentcss": "py-3 bg-white border-white "
-        },
+      
+       
+       
 
     ]
 
@@ -316,12 +323,15 @@ export const Sponsors = () => {
                     <div className='spaced uppercase text-2xl tracking-wider'>
                         Associate Sponsors
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2  md:gap-x-10 lg:gap-x-24 md:gap-y-4 gap-y-2 place-content-center place-items-center py-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:gap-x-10 lg:gap-x-24 md:gap-y-4 gap-y-2 place-content-center place-items-center py-6'>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <SponsorCard sponsor={associate_sponsors[0]} />
                         </div>
                         <div className='flex flex-col justify-center items-center space-y-2'>
                             <SponsorCard sponsor={associate_sponsors[1]} />
+                        </div>
+                        <div className='flex flex-col justify-center items-center space-y-2'>
+                            <SponsorCard sponsor={associate_sponsors[2]} />
                         </div>
                     </div>
                     <div className='spaced uppercase text-2xl tracking-wider'>
@@ -367,9 +377,22 @@ export const Sponsors = () => {
                             </div>
                             <SponsorCard sponsor={coverage_sponsors[0]} />
                         </div>
+                        <div className='flex flex-col justify-center items-center space-y-2'>
+                            <div className='spaced uppercase text-2xl tracking-wider'>
+                                Banking Partner
+                            </div>
+                            <SponsorCard sponsor={banking[0]} />
+                        </div>
+                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  md:gap-x-10 lg:gap-x-24 md:gap-y-4 gap-y-2 place-content-center place-items-center py-6'>
 
                     </div>
-
+                        <div className='flex flex-col justify-center items-center space-y-2'>
+                            <div className='spaced uppercase text-2xl tracking-wider'>
+                                Salon Partner
+                            </div>
+                            <SponsorCard sponsor={salon[0]} />
+                        </div>
+</div>
 
 
                     <div className='flex flex-col justify-center items-center space-y-3'>
