@@ -10,24 +10,24 @@ export const LandingPage = (props) => {
   const [showArrow, setShowArrow] = useState(false);
   const [ShowBottom, setShowBottom] = useState(false);
   const [BottomLoaded, setBottomLoaded] = useState(false);
-  const [CD, setCD] = useState("");
+  // const [CD, setCD] = useState("");
 
-  var countDownDate = new Date("Nov 4, 2022 00:00:00").getTime();
-  var x = setInterval(function () {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor(
-      (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    setCD(days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("demo").innerHTML = "EXPIRED";
-    }
-  }, 1000);
+  // var countDownDate = new Date("Nov 4, 2022 00:00:00").getTime();
+  // var x = setInterval(function () {
+  //   var now = new Date().getTime();
+  //   var distance = countDownDate - now;
+  //   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  //   var hours = Math.floor(
+  //     (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  //   );
+  //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  //   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  //   setCD(days + "d " + hours + "h " + minutes + "m " + seconds + "s ");
+  //   if (distance < 0) {
+  //     clearInterval(x);
+  //     document.getElementById("demo").innerHTML = "EXPIRED";
+  //   }
+  // }, 1000);
 
   setTimeout(() => {
     setVal(false);
@@ -109,13 +109,11 @@ export const LandingPage = (props) => {
             <img
               id="EarthGIF"
               src="Images/Earth.gif"
-              className={`hidden sm:block rounded-full absolute transition-all w-[42vh] h-[42vh] md:w-[50vh] md:h-[50vh] xl:h-[80vh] xl:w-[80vh] ${
-                showArrow ? "duration-[500ms]" : "duration-[3s]"
-              }  left-0 right-0 top-0 bottom-0 m-auto ${
-                val
+              className={`hidden sm:block rounded-full absolute transition-all w-[42vh] h-[42vh] md:w-[50vh] md:h-[50vh] xl:h-[80vh] xl:w-[80vh] ${showArrow ? "duration-[500ms]" : "duration-[3s]"
+                }  left-0 right-0 top-0 bottom-0 m-auto ${val
                   ? " left-0 right-0 top-0 bottom-0 m-auto scale-[40%]"
                   : " translate-x-[72%]"
-              }`}
+                }`}
               alt="EarthGIF"
             />
           </div>
@@ -123,19 +121,16 @@ export const LandingPage = (props) => {
           <img
             id="ScrollArrow"
             onClick={ScrollToggle}
-            className={`absolute ${
-              ShowBottom ? "-bottom-20 rotate-180" : "bottom-8"
-            }  left-0 right-0 mx-auto w-[30px] h-[30px] tracking-widest cursor-pointer transition-all duration-1000 ${
-              showArrow ? "opacity-100" : "opacity-0"
-            }`}
+            className={`absolute ${ShowBottom ? "-bottom-20 rotate-180" : "bottom-8"
+              }  left-0 right-0 mx-auto w-[30px] h-[30px] tracking-widest cursor-pointer transition-all duration-1000 ${showArrow ? "opacity-100" : "opacity-0"
+              }`}
             src="DownArrow.svg"
             alt="DownArrow"
           />
 
           <div
-            className={`transition-all duration-[3s] z-30 ${
-              val ? "translate-y-[-120%]" : "translate-y-[0]"
-            }`}
+            className={`transition-all duration-[3s] z-30 ${val ? "translate-y-[-120%]" : "translate-y-[0]"
+              }`}
           >
             <div className="h-6"></div>
 
@@ -143,11 +138,10 @@ export const LandingPage = (props) => {
           </div>
 
           <div
-            className={`h-[45vh] w-[45vh]  lg:h-[65vh] lg:w-[65vw] flex flex-row justify-between z-10 transition-all duration-[3s] ${
-              val
+            className={`h-[45vh] w-[45vh]  lg:h-[65vh] lg:w-[65vw] flex flex-row justify-between z-10 transition-all duration-[3s] ${val
                 ? "translate-x-[150%]"
                 : "translate-y-5 translate-x-[-50%] lg:translate-x-[-10%]"
-            }`}
+              }`}
           >
             <div className="text-white space-y-0 spaced flex justify-center flex-col">
               <div className="text-2xl md:text-5xl lg:text-7xl ">
@@ -169,9 +163,10 @@ export const LandingPage = (props) => {
                 REGISTER
               </a>
               <div className="text-xl md:text-2xl lg:text-4xl pt-10">
-                Take off at <span className=" text-[#E72D2D] ">T minus</span>{" "}
-                <br></br>
-                {CD}
+                {/* Take off at <span className=" text-[#E72D2D] ">T minus</span>{" "} */}
+                {/* <br></br> */}
+                Technovate is now <span className=" text-[#E72D2D] ">LIVE</span>
+                {/* {CD} */}
               </div>
             </div>
           </div>
@@ -206,11 +201,10 @@ export const LandingPage = (props) => {
 
                 <div className="flex flex-col ml-[5vw]">
                   <div
-                    className={`text-white text-sm w-[60vw] h-auto  bg-black bg-opacity-50 p-3 transition-all duration-700 ${
-                      BottomLoaded
+                    className={`text-white text-sm w-[60vw] h-auto  bg-black bg-opacity-50 p-3 transition-all duration-700 ${BottomLoaded
                         ? "translate-x-0 translate-y-0"
                         : "translate-x-[100vw] translate-y-10"
-                    }`}
+                      }`}
                   >
                     Technovate is the annual techno-cultural fest of IIIT-NR
                     which includes but is not limited to Coding competitions,
@@ -229,11 +223,10 @@ export const LandingPage = (props) => {
                   </div>
 
                   <div
-                    className={`transition-all duration-1000 ${
-                      BottomLoaded
+                    className={`transition-all duration-1000 ${BottomLoaded
                         ? "translate-x-0 translate-y-0 mb-2"
                         : "translate-x-[100vw] translate-y-10"
-                    }`}
+                      }`}
                   >
                     <video
                       className="h-[250px] w-[450px] ml-5 mt-5"
@@ -276,9 +269,10 @@ export const LandingPage = (props) => {
               </a>
             </div>
             <div className="text-xl md:text-2xl lg:text-4xl pt-10 text-center">
-              Take off at <span className=" text-[#E72D2D] ">T minus</span>{" "}
+              {/* Take off at <span className=" text-[#E72D2D] ">T minus</span>{" "}
               <br></br>
-              {CD}
+              {CD} */}
+              Technovate is now <span className=" text-[#E72D2D] ">LIVE</span>
             </div>
             <div className="mt-4">
               <img
