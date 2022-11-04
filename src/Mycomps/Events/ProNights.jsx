@@ -43,7 +43,8 @@ const ProNightList = [
 
     {
       name: "Stand-Up Night",
-      DirectURL:"https://unstop.com/p/stand-up-night-international-institute-of-information-technology-iiit-naya-raipur-473132",
+      // DirectURL:"https://unstop.com/p/stand-up-night-international-institute-of-information-technology-iiit-naya-raipur-473132",
+      DirectURL:"/",
       details:"Different games will be played in the AR/VR format. The exact types of the games will depend upon the sponsors.",
       image: "./Images/Event/Karunesh.png",
       event_poster: "../Images/Event/Informal/event.png",
