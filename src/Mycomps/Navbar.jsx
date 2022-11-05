@@ -58,7 +58,7 @@ export const Navbar = () => {
             BLOGS
           </Link>
         </div>
-        <a
+        {/* <a
           className="hidden lg:block absolute right-12"
           rel="noreferrer"
           href="https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915"
@@ -67,7 +67,7 @@ export const Navbar = () => {
           <div className="glow-on-hover px-2 text-center text-xs flex justify-center items-center">
             Register
           </div>
-        </a>
+        </a> */}
       </div>
       <div className="sm:hidden flex flex-row justify-between items-center mx-2">
         <Link to="/" className="mt-2">
@@ -132,14 +132,14 @@ export const Navbar = () => {
           >
             BLOGS
           </Link>
-          <a
+          {/* <a
             className="glow-on-hover px-2 text-center text-xs flex justify-center items-center"
             rel="noreferrer"
             href="https://unstop.com/festival/technovate-2022-international-institute-of-information-technology-iiit-naya-raipur-54915"
             target="_blank"
           >
             <span className="uppercase">Register</span>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
