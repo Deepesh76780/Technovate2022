@@ -65,11 +65,11 @@ export const Sponsors = () => {
 
     const beverage_sponsors = [
         {
-            "name": "Coca Cola",
-            "url": "https://www.coca-colacompany.com/",
-            "img": "./Images/Sponsors/coca-cola.png",
+            "name": "Pepsi",
+            "url": "https://www.pepsi.com/",
+            "img": "./Images/Sponsors/pepsi.png",
             "sponsornumber": "Sponsor 4",
-            "css": "px-3 py-3 h-full scale-[85%]",
+            "css": "px-3 py-3 h-full scale-[130%]",
             "parentcss": "py-3 bg-white border-white "
         },
     ]
